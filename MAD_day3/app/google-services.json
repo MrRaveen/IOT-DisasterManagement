@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "973277486274",
+    "firebase_url": "https://disasteralertsystem-78a0c-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "disasteralertsystem-78a0c",
+    "storage_bucket": "disasteralertsystem-78a0c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:973277486274:android:de1e0a538e4470bf0e2f5b",
+        "android_client_info": {
+          "package_name": "com.example.mad_day3"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5vUvq6ce-uafrmQlFwzlQ_5rUKlNeNRU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
