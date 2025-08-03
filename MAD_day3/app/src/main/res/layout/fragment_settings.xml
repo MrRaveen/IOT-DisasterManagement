@@ -12,7 +12,7 @@
         android:orientation="vertical"
         android:padding="16dp">
 
-        <!-- Profile Section -->
+        <!-- Profile Section (Enhanced) -->
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -51,7 +51,6 @@
                             android:id="@+id/profile_name"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="User Name"
                             android:textSize="18sp"
                             android:textColor="@color/text_primary"/>
 
@@ -59,10 +58,25 @@
                             android:id="@+id/profile_email"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="user@example.com"
                             android:textSize="14sp"
                             android:textColor="@color/text_secondary"
                             android:layout_marginTop="4dp"/>
+
+                        <!-- Added Contact and Address -->
+                        <TextView
+                            android:id="@+id/profile_contact"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="12sp"
+                            android:layout_marginTop="8dp"
+                            android:textColor="@color/text_secondary"/>
+
+                        <TextView
+                            android:id="@+id/profile_address"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="12sp"
+                            android:textColor="@color/text_secondary"/>
                     </LinearLayout>
                 </LinearLayout>
 
@@ -71,7 +85,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="48dp"
                     android:layout_marginTop="16dp"
-                    android:text="View and Change Details"
+                    android:text="Edit Profile"
                     android:textColor="@color/colorPrimary"
                     android:backgroundTint="@color/white"
                     android:textAllCaps="false"
@@ -82,10 +96,11 @@
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
-        <!-- Settings Options -->
+        <!-- Notification Preferences Card -->
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
             app:cardCornerRadius="12dp"
             app:cardElevation="2dp"
             app:cardBackgroundColor="@color/white">
@@ -93,168 +108,89 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:padding="16dp">
 
-                <!-- Notification Preferences -->
-                <LinearLayout
-                    android:id="@+id/option_notifications"
+                <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:padding="20dp"
-                    android:gravity="center_vertical"
-                    android:background="?attr/selectableItemBackground">
+                    android:text="Notification Preferences"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="8dp"/>
 
-                    <ImageView
-                        android:layout_width="24dp"
-                        android:layout_height="24dp"
-                        android:src="@drawable/notification_12_svgrepo_com"
-                        app:tint="@color/colorPrimary"/>
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Notification Preferences"
-                        android:textSize="16sp"
-                        android:textColor="@color/text_primary"
-                        android:layout_marginStart="16dp"/>
-
-                    <View
-                        android:layout_width="0dp"
-                        android:layout_height="1dp"
-                        android:layout_weight="1"/>
-
-                    <ImageView
-                        android:layout_width="24dp"
-                        android:layout_height="24dp"
-                        android:src="@drawable/right_arrow_svgrepo_com"
-                        app:tint="@color/text_secondary"/>
-
-
-                </LinearLayout>
-
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:background="@color/divider_light"/>
-
-                <!-- Theme -->
-                <LinearLayout
-                    android:id="@+id/option_theme"
+                <com.google.android.material.switchmaterial.SwitchMaterial
+                    android:id="@+id/switch_landslide"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:padding="20dp"
-                    android:gravity="center_vertical"
-                    android:background="?attr/selectableItemBackground">
+                    android:text="Landslide Alerts"
+                    android:layout_marginTop="8dp"/>
 
-                    <ImageView
-                        android:layout_width="24dp"
-                        android:layout_height="24dp"
-                        android:src="@drawable/theme_store_svgrepo_com"
-                        app:tint="@color/colorPrimary"/>
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Theme"
-                        android:textSize="16sp"
-                        android:textColor="@color/text_primary"
-                        android:layout_marginStart="16dp"/>
-
-                    <View
-                        android:layout_width="0dp"
-                        android:layout_height="1dp"
-                        android:layout_weight="1"/>
-
-                    <ImageView
-                        android:layout_width="24dp"
-                        android:layout_height="24dp"
-                        android:src="@drawable/right_arrow_svgrepo_com"
-                        app:tint="@color/text_secondary"/>
-                </LinearLayout>
-
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:background="@color/divider_light"/>
-
-                <!-- About -->
-                <LinearLayout
-                    android:id="@+id/option_about"
+                <com.google.android.material.switchmaterial.SwitchMaterial
+                    android:id="@+id/switch_flood"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:padding="20dp"
-                    android:gravity="center_vertical"
-                    android:background="?attr/selectableItemBackground">
+                    android:text="Flood Alerts"
+                    android:layout_marginTop="8dp"/>
 
-                    <ImageView
-                        android:layout_width="24dp"
-                        android:layout_height="24dp"
-                        android:src="@drawable/info_square_svgrepo_com"
-                        app:tint="@color/colorPrimary"/>
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="About"
-                        android:textSize="16sp"
-                        android:textColor="@color/text_primary"
-                        android:layout_marginStart="16dp"/>
-
-                    <View
-                        android:layout_width="0dp"
-                        android:layout_height="1dp"
-                        android:layout_weight="1"/>
-
-                    <ImageView
-                        android:layout_width="24dp"
-                        android:layout_height="24dp"
-                        android:src="@drawable/right_arrow_svgrepo_com"
-                        app:tint="@color/text_secondary"/>
-                </LinearLayout>
-
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:background="@color/divider_light"/>
-
-                <!-- Contact -->
-                <LinearLayout
-                    android:id="@+id/option_contact"
+                <com.google.android.material.switchmaterial.SwitchMaterial
+                    android:id="@+id/switch_earthquake"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:padding="20dp"
-                    android:gravity="center_vertical"
-                    android:background="?attr/selectableItemBackground">
+                    android:text="Earthquake Alerts"
+                    android:layout_marginTop="8dp"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
 
-                    <ImageView
-                        android:layout_width="24dp"
-                        android:layout_height="24dp"
-                        android:src="@drawable/contact_us_svgrepo_com"
-                        app:tint="@color/colorPrimary"/>
+        <!-- Theme Selection Card -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="2dp"
+            app:cardBackgroundColor="@color/white">
 
-                    <TextView
-                        android:layout_width="wrap_content"
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="App Theme"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="8dp"/>
+
+                <RadioGroup
+                    android:id="@+id/radioGroup"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <RadioButton
+                        android:id="@+id/radio_light"
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Contact"
-                        android:textSize="16sp"
-                        android:textColor="@color/text_primary"
-                        android:layout_marginStart="16dp"/>
+                        android:text="Light Theme"
+                        android:layout_marginTop="8dp"/>
 
-                    <View
-                        android:layout_width="0dp"
-                        android:layout_height="1dp"
-                        android:layout_weight="1"/>
+                    <RadioButton
+                        android:id="@+id/radio_dark"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Dark Theme"
+                        android:layout_marginTop="8dp"/>
 
-                    <ImageView
-                        android:layout_width="24dp"
-                        android:layout_height="24dp"
-                        android:src="@drawable/right_arrow_svgrepo_com"
-                        app:tint="@color/text_secondary"/>
-                </LinearLayout>
+                    <RadioButton
+                        android:id="@+id/radio_system"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="System Default"
+                        android:layout_marginTop="8dp"/>
+                </RadioGroup>
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
@@ -263,14 +199,12 @@
             android:id="@+id/btn_logout"
             android:layout_width="match_parent"
             android:layout_height="48dp"
-            android:layout_marginTop="24dp"
+            android:layout_marginTop="8dp"
             android:text="Log Out"
             android:textColor="@color/white"
             android:backgroundTint="@color/colorAccent"
             android:textAllCaps="false"
             style="@style/Widget.MaterialComponents.Button"
             app:cornerRadius="8dp"/>
-
-
     </LinearLayout>
 </ScrollView>
