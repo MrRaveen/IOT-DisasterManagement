@@ -6,6 +6,8 @@
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
 
+    <color name="danger_high">#FF5252</color>
+    <color name="safe">#4CAF50</color>
     <!-- Background colors -->
     <color name="background_light">#F5F5F5</color>
 

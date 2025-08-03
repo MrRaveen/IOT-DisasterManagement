@@ -1,49 +1,38 @@
 package com.example.mad_day3.Warning
 
+import android.graphics.Color
 import android.view.LayoutInflater
-import android.view.View
 import android.view.ViewGroup
+import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
 import com.example.mad_day3.R
 import com.example.mad_day3.databinding.ItemWarningBinding
 import com.example.mad_day3.Warning.WarningFragment
+import androidx.recyclerview.widget.ListAdapter
 
 
 class WarningAdapter(
-    private val warnings: List<WarningFragment.Warning>,
     private val onItemClick: (WarningFragment.Warning) -> Unit
-) : RecyclerView.Adapter<WarningAdapter.WarningViewHolder>() {
+) : ListAdapter<WarningFragment.Warning, WarningAdapter.WarningViewHolder>(DiffCallback()) {
+
+    fun getFilteredList(): List<WarningFragment.Warning> {
+        return currentList
+    }
 
     inner class WarningViewHolder(private val binding: ItemWarningBinding) :
         RecyclerView.ViewHolder(binding.root) {
 
         fun bind(warning: WarningFragment.Warning) {
-            binding.warningType.text = warning.type
-            binding.warningLocation.text = warning.location
-            binding.warningTime.text = warning.time
-
-            // Set danger level color
-            when (warning.dangerLevel) {
-                "High" -> binding.dangerLevelIndicator.setCardBackgroundColor(
-                    binding.root.context.getColor(android.R.color.holo_red_light)
+            binding.apply {
+                tvLocation.text = warning.location
+                tvTime.text = warning.timestamp
+                tvDangerLevel.text = if (warning.value == 1) "HIGH RISK" else "Normal"
+                tvDangerLevel.setBackgroundResource(
+                    if (warning.value == 1) R.drawable.bg_danger_high
+                    else R.drawable.bg_danger_low
                 )
-                "Medium" -> binding.dangerLevelIndicator.setCardBackgroundColor(
-                    binding.root.context.getColor(android.R.color.holo_orange_light)
-                )
-                else -> binding.dangerLevelIndicator.setCardBackgroundColor(
-                    binding.root.context.getColor(android.R.color.holo_green_light)
-                )
+                root.setOnClickListener { onItemClick(warning) }
             }
-
-            // Set warning icon based on type
-            val iconRes = when (warning.type) {
-                "Landslide" -> R.drawable.landslide_svgrepo_com
-                "Flood" -> R.drawable.flood_warning_svgrepo_com
-                else -> R.drawable.earthquake_svgrepo_com
-            }
-            binding.warningIcon.setImageResource(iconRes)
-
-            binding.root.setOnClickListener { onItemClick(warning) }
         }
     }
 
@@ -57,8 +46,18 @@ class WarningAdapter(
     }
 
     override fun onBindViewHolder(holder: WarningViewHolder, position: Int) {
-        holder.bind(warnings[position])
+        holder.bind(getItem(position))
     }
 
-    override fun getItemCount() = warnings.size
+    class DiffCallback : DiffUtil.ItemCallback<WarningFragment.Warning>() {
+        override fun areItemsTheSame(
+            oldItem: WarningFragment.Warning,
+            newItem: WarningFragment.Warning
+        ) = oldItem.id == newItem.id
+
+        override fun areContentsTheSame(
+            oldItem: WarningFragment.Warning,
+            newItem: WarningFragment.Warning
+        ) = oldItem == newItem
+    }
 }

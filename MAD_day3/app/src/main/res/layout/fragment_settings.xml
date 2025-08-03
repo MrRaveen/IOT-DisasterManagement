@@ -129,6 +129,8 @@
                         android:layout_height="24dp"
                         android:src="@drawable/right_arrow_svgrepo_com"
                         app:tint="@color/text_secondary"/>
+
+
                 </LinearLayout>
 
                 <View
@@ -268,5 +270,7 @@
             android:textAllCaps="false"
             style="@style/Widget.MaterialComponents.Button"
             app:cornerRadius="8dp"/>
+
+
     </LinearLayout>
 </ScrollView>
