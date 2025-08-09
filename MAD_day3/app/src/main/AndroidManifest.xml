@@ -16,6 +16,9 @@
 
 
         <activity
+            android:name=".landslideMoreInfo"
+            android:exported="false" />
+        <activity
             android:name=".ThirdActivity"
             android:exported="false" />
         <activity

@@ -155,26 +155,14 @@
                     android:layout_height="1dp"
                     android:layout_weight="1" />
 
-                <TextView
-                    android:id="@+id/textForgotPassword"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Forgot Password?"
-                    android:textSize="14sp"
-                    android:textColor="#3498db"
-                    android:textStyle="bold"
-                    android:clickable="true"
-                    android:focusable="true"
-                    android:padding="8dp" />
-
             </LinearLayout>
 
             <!-- Login Button -->
             <Button
-                android:id="@+id/button"
+                android:id="@+id/lgoInButton"
                 android:layout_width="match_parent"
                 android:layout_height="56dp"
-                android:text="Sign In"
+                android:text="Log In"
                 android:textSize="16sp"
                 android:textStyle="bold"
                 android:textColor="#ffffff"
