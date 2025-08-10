@@ -1,49 +1,67 @@
 package com.example.mad_day3.Warning
 
+import android.graphics.Color
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
 import com.example.mad_day3.R
 import com.example.mad_day3.databinding.ItemWarningBinding
 import com.example.mad_day3.Warning.WarningFragment
+import androidx.recyclerview.widget.ListAdapter
 
 
 class WarningAdapter(
-    private val warnings: List<WarningFragment.Warning>,
     private val onItemClick: (WarningFragment.Warning) -> Unit
-) : RecyclerView.Adapter<WarningAdapter.WarningViewHolder>() {
+) : ListAdapter<WarningFragment.Warning, WarningAdapter.WarningViewHolder>(DiffCallback()) {
+
+    private val allWarnings = mutableListOf<WarningFragment.Warning>()
+
+    fun addWarnings(newWarnings: List<WarningFragment.Warning>) {
+        val current = currentList.toMutableList()
+        current.addAll(newWarnings)
+        submitList(current)
+        Log.d("ADAPTER_DEBUG", "Submitted ${newWarnings.size} new warnings. Total: ${current.size}")
+    }
+    fun getFilteredList(): List<WarningFragment.Warning> {
+        return currentList
+    }
 
     inner class WarningViewHolder(private val binding: ItemWarningBinding) :
         RecyclerView.ViewHolder(binding.root) {
 
         fun bind(warning: WarningFragment.Warning) {
-            binding.warningType.text = warning.type
-            binding.warningLocation.text = warning.location
-            binding.warningTime.text = warning.time
+            binding.apply {
+                // Set icon and text based on warning type
+                when (warning.type) {
+                    "landslide" -> {
+                        warningIcon.setImageResource(R.drawable.landslide_svgrepo_com)
+                        warningTypeText.text = "Landslide Warning"
+                        warningTypeText.setTextColor(Color.parseColor("#FF9800")) // Orange
+                    }
+                    "flood" -> {
+                        warningIcon.setImageResource(R.drawable.flood_warning_svgrepo_com)
+                        warningTypeText.text = "Flood Warning"
+                        warningTypeText.setTextColor(Color.parseColor("#2196F3")) // Blue
+                    }
+                }
 
-            // Set danger level color
-            when (warning.dangerLevel) {
-                "High" -> binding.dangerLevelIndicator.setCardBackgroundColor(
-                    binding.root.context.getColor(android.R.color.holo_red_light)
-                )
-                "Medium" -> binding.dangerLevelIndicator.setCardBackgroundColor(
-                    binding.root.context.getColor(android.R.color.holo_orange_light)
-                )
-                else -> binding.dangerLevelIndicator.setCardBackgroundColor(
-                    binding.root.context.getColor(android.R.color.holo_green_light)
-                )
+                tvLocation.text = warning.location
+                tvTime.text = warning.timestamp
+
+                // Set danger level
+                if (warning.value == 1) {
+                    tvDangerLevel.text = "HIGH RISK"
+                    tvDangerLevel.setBackgroundResource(R.drawable.bg_danger_high)
+                } else {
+                    tvDangerLevel.text = "Normal"
+                    tvDangerLevel.setBackgroundResource(R.drawable.bg_danger_low)
+                }
+
+                root.setOnClickListener { onItemClick(warning) }
             }
-
-            // Set warning icon based on type
-            val iconRes = when (warning.type) {
-                "Landslide" -> R.drawable.landslide_svgrepo_com
-                "Flood" -> R.drawable.flood_warning_svgrepo_com
-                else -> R.drawable.earthquake_svgrepo_com
-            }
-            binding.warningIcon.setImageResource(iconRes)
-
-            binding.root.setOnClickListener { onItemClick(warning) }
         }
     }
 
@@ -57,8 +75,18 @@ class WarningAdapter(
     }
 
     override fun onBindViewHolder(holder: WarningViewHolder, position: Int) {
-        holder.bind(warnings[position])
+        holder.bind(getItem(position))
     }
 
-    override fun getItemCount() = warnings.size
+    class DiffCallback : DiffUtil.ItemCallback<WarningFragment.Warning>() {
+        override fun areItemsTheSame(
+            oldItem: WarningFragment.Warning,
+            newItem: WarningFragment.Warning
+        ) = oldItem.id == newItem.id
+
+        override fun areContentsTheSame(
+            oldItem: WarningFragment.Warning,
+            newItem: WarningFragment.Warning
+        ) = oldItem == newItem
+    }
 }

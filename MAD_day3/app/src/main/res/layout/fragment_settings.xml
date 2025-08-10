@@ -13,260 +13,362 @@
         android:padding="16dp">
 
         <!-- Profile Section -->
-        <androidx.cardview.widget.CardView
+        <com.google.android.material.card.MaterialCardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
             app:cardCornerRadius="12dp"
-            app:cardElevation="2dp"
-            app:cardBackgroundColor="@color/white">
+            app:cardElevation="1dp"
+            app:cardBackgroundColor="@color/surfaceContainer">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                android:padding="20dp">
+                android:padding="8dp">
 
+                <!-- Profile Info -->
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
+                    android:padding="12dp"
                     android:gravity="center_vertical">
 
                     <ImageView
                         android:id="@+id/profile_image"
                         android:layout_width="64dp"
                         android:layout_height="64dp"
-                        android:src="@drawable/profile_round_1342_svgrepo_com"
-                        android:contentDescription="Profile image"
-                        android:background="@drawable/circle_bg_accent"/>
+                        android:src="@drawable/ic_profile"
+                        android:contentDescription="Profile"
+                        android:layout_marginEnd="16dp"
+                        app:tint="?attr/colorPrimary"/>
 
                     <LinearLayout
-                        android:layout_width="wrap_content"
+                        android:layout_width="0dp"
                         android:layout_height="wrap_content"
-                        android:orientation="vertical"
-                        android:layout_marginStart="16dp">
+                        android:layout_weight="1"
+                        android:orientation="vertical">
 
                         <TextView
-                            android:id="@+id/profile_name"
-                            android:layout_width="wrap_content"
+                            android:id="@+id/tv_username"
+                            android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="User Name"
                             android:textSize="18sp"
-                            android:textColor="@color/text_primary"/>
+                            android:textStyle="bold"
+                            android:textColor="?attr/colorOnSurface"/>
 
                         <TextView
-                            android:id="@+id/profile_email"
-                            android:layout_width="wrap_content"
+                            android:id="@+id/tvContact"
+                            android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="user@example.com"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:textColor="?attr/colorOnSurface"/>
+
+                        <TextView
+                            android:id="@+id/tvAddress"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:textColor="?attr/colorOnSurface"/>
+
+                        <TextView
+                            android:id="@+id/tvEmail"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
                             android:textSize="14sp"
-                            android:textColor="@color/text_secondary"
-                            android:layout_marginTop="4dp"/>
+                            android:layout_marginTop="4dp"
+                            android:textColor="?attr/colorOnSurfaceVariant"/>
                     </LinearLayout>
                 </LinearLayout>
 
-                <Button
-                    android:id="@+id/btn_edit_profile"
+                <!-- Profile Actions -->
+                <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="48dp"
-                    android:layout_marginTop="16dp"
-                    android:text="View and Change Details"
-                    android:textColor="@color/colorPrimary"
-                    android:backgroundTint="@color/white"
-                    android:textAllCaps="false"
-                    style="@style/Widget.MaterialComponents.Button.OutlinedButton"
-                    app:strokeColor="@color/colorPrimary"
-                    app:strokeWidth="1dp"
-                    app:cornerRadius="8dp"/>
-            </LinearLayout>
-        </androidx.cardview.widget.CardView>
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
 
-        <!-- Settings Options -->
-        <androidx.cardview.widget.CardView
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/btn_edit_profile"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:text="Edit Profile"
+                        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                        app:strokeColor="?attr/colorOutline"
+                        app:cornerRadius="8dp"/>
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/btn_change_password"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:text="Change Password"
+                        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                        app:strokeColor="?attr/colorOutline"
+                        app:cornerRadius="8dp"/>
+                </LinearLayout>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Help & About Section -->
+        <com.google.android.material.card.MaterialCardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
             app:cardCornerRadius="12dp"
-            app:cardElevation="2dp"
-            app:cardBackgroundColor="@color/white">
+            app:cardElevation="1dp"
+            app:cardBackgroundColor="@color/surfaceContainer">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
 
-                <!-- Notification Preferences -->
-                <LinearLayout
-                    android:id="@+id/option_notifications"
+                <TextView
+                    android:id="@+id/btn_help_support"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:padding="20dp"
+                    android:text="Help and Support"
+                    android:textSize="16sp"
+                    android:padding="16dp"
+                    android:drawableEnd="@drawable/ic_chevron_right"
+                    android:drawablePadding="8dp"
                     android:gravity="center_vertical"
-                    android:background="?attr/selectableItemBackground">
-
-                    <ImageView
-                        android:layout_width="24dp"
-                        android:layout_height="24dp"
-                        android:src="@drawable/notification_12_svgrepo_com"
-                        app:tint="@color/colorPrimary"/>
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Notification Preferences"
-                        android:textSize="16sp"
-                        android:textColor="@color/text_primary"
-                        android:layout_marginStart="16dp"/>
-
-                    <View
-                        android:layout_width="0dp"
-                        android:layout_height="1dp"
-                        android:layout_weight="1"/>
-
-                    <ImageView
-                        android:layout_width="24dp"
-                        android:layout_height="24dp"
-                        android:src="@drawable/right_arrow_svgrepo_com"
-                        app:tint="@color/text_secondary"/>
-                </LinearLayout>
+                    android:textColor="?attr/colorOnSurface"
+                    android:background="?attr/selectableItemBackground"/>
 
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="1dp"
-                    android:background="@color/divider_light"/>
+                    android:background="?attr/colorOutline"/>
 
-                <!-- Theme -->
-                <LinearLayout
-                    android:id="@+id/option_theme"
+                <TextView
+                    android:id="@+id/btn_about"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:padding="20dp"
+                    android:text="About"
+                    android:textSize="16sp"
+                    android:padding="16dp"
+                    android:drawableEnd="@drawable/ic_chevron_right"
+                    android:drawablePadding="8dp"
                     android:gravity="center_vertical"
-                    android:background="?attr/selectableItemBackground">
+                    android:textColor="?attr/colorOnSurface"
+                    android:background="?attr/selectableItemBackground"/>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
 
-                    <ImageView
-                        android:layout_width="24dp"
-                        android:layout_height="24dp"
-                        android:src="@drawable/theme_store_svgrepo_com"
-                        app:tint="@color/colorPrimary"/>
+        <!-- Notification Preferences -->
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="1dp"
+            app:cardBackgroundColor="@color/surfaceContainer">
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Theme"
-                        android:textSize="16sp"
-                        android:textColor="@color/text_primary"
-                        android:layout_marginStart="16dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
 
-                    <View
-                        android:layout_width="0dp"
-                        android:layout_height="1dp"
-                        android:layout_weight="1"/>
-
-                    <ImageView
-                        android:layout_width="24dp"
-                        android:layout_height="24dp"
-                        android:src="@drawable/right_arrow_svgrepo_com"
-                        app:tint="@color/text_secondary"/>
-                </LinearLayout>
-
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:background="@color/divider_light"/>
-
-                <!-- About -->
-                <LinearLayout
-                    android:id="@+id/option_about"
+                <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:padding="20dp"
-                    android:gravity="center_vertical"
-                    android:background="?attr/selectableItemBackground">
+                    android:text="Notification Preferences"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:paddingStart="16dp"
+                    android:paddingTop="16dp"
+                    android:paddingEnd="16dp"
+                    android:textColor="?attr/colorOnSurface"/>
 
-                    <ImageView
-                        android:layout_width="24dp"
-                        android:layout_height="24dp"
-                        android:src="@drawable/info_square_svgrepo_com"
-                        app:tint="@color/colorPrimary"/>
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="About"
-                        android:textSize="16sp"
-                        android:textColor="@color/text_primary"
-                        android:layout_marginStart="16dp"/>
-
-                    <View
-                        android:layout_width="0dp"
-                        android:layout_height="1dp"
-                        android:layout_weight="1"/>
-
-                    <ImageView
-                        android:layout_width="24dp"
-                        android:layout_height="24dp"
-                        android:src="@drawable/right_arrow_svgrepo_com"
-                        app:tint="@color/text_secondary"/>
-                </LinearLayout>
-
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:background="@color/divider_light"/>
-
-                <!-- Contact -->
                 <LinearLayout
-                    android:id="@+id/option_contact"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:padding="20dp"
-                    android:gravity="center_vertical"
-                    android:background="?attr/selectableItemBackground">
+                    android:orientation="vertical"
+                    android:paddingStart="8dp"
+                    android:paddingEnd="8dp"
+                    android:paddingBottom="8dp">
 
-                    <ImageView
-                        android:layout_width="24dp"
-                        android:layout_height="24dp"
-                        android:src="@drawable/contact_us_svgrepo_com"
-                        app:tint="@color/colorPrimary"/>
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="56dp"
+                        android:paddingHorizontal="8dp">
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Contact"
-                        android:textSize="16sp"
-                        android:textColor="@color/text_primary"
-                        android:layout_marginStart="16dp"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="Landslide Alerts"
+                            android:textSize="16sp"
+                            android:textColor="?attr/colorOnSurface"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintBottom_toBottomOf="parent"/>
 
-                    <View
-                        android:layout_width="0dp"
-                        android:layout_height="1dp"
-                        android:layout_weight="1"/>
+                        <com.google.android.material.switchmaterial.SwitchMaterial
+                            android:id="@+id/switch_landslide"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintBottom_toBottomOf="parent"/>
+                    </androidx.constraintlayout.widget.ConstraintLayout>
 
-                    <ImageView
-                        android:layout_width="24dp"
-                        android:layout_height="24dp"
-                        android:src="@drawable/right_arrow_svgrepo_com"
-                        app:tint="@color/text_secondary"/>
+                    <!-- Repeat the same pattern for other switches -->
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="56dp"
+                        android:paddingHorizontal="8dp">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="Flood Alerts"
+                            android:textSize="16sp"
+                            android:textColor="?attr/colorOnSurface"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintBottom_toBottomOf="parent"/>
+
+                        <com.google.android.material.switchmaterial.SwitchMaterial
+                            android:id="@+id/switch_flood"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintBottom_toBottomOf="parent"/>
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <!-- Earthquake Alerts -->
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="56dp"
+                        android:paddingHorizontal="8dp">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="Earthquake Alerts"
+                            android:textSize="16sp"
+                            android:textColor="?attr/colorOnSurface"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintBottom_toBottomOf="parent"/>
+
+                        <com.google.android.material.switchmaterial.SwitchMaterial
+                            android:id="@+id/switch_earthquake"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintBottom_toBottomOf="parent"/>
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <!-- Emergency Alerts -->
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="56dp"
+                        android:paddingHorizontal="8dp">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="Emergency Alerts"
+                            android:textSize="16sp"
+                            android:textColor="?attr/colorOnSurface"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintBottom_toBottomOf="parent"/>
+
+                        <com.google.android.material.switchmaterial.SwitchMaterial
+                            android:id="@+id/switch_emergency"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintBottom_toBottomOf="parent"/>
+                    </androidx.constraintlayout.widget.ConstraintLayout>
                 </LinearLayout>
             </LinearLayout>
-        </androidx.cardview.widget.CardView>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Theme Selection -->
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="1dp"
+            app:cardBackgroundColor="@color/surfaceContainer">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="App Theme"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:paddingStart="16dp"
+                    android:paddingTop="16dp"
+                    android:paddingEnd="16dp"
+                    android:textColor="?attr/colorOnSurface"/>
+
+                <RadioGroup
+                    android:id="@+id/radioGroup"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="8dp"
+                    android:paddingEnd="8dp"
+                    android:paddingBottom="8dp"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.radiobutton.MaterialRadioButton
+                        android:id="@+id/radio_light"
+                        android:layout_width="match_parent"
+                        android:layout_height="56dp"
+                        android:text="Light Theme"
+                        android:gravity="center_vertical|start"
+                        android:paddingStart="8dp"
+                        android:textColor="?attr/colorOnSurface"/>
+
+                    <com.google.android.material.radiobutton.MaterialRadioButton
+                        android:id="@+id/radio_dark"
+                        android:layout_width="match_parent"
+                        android:layout_height="56dp"
+                        android:text="Dark Theme"
+                        android:gravity="center_vertical|start"
+                        android:paddingStart="8dp"
+                        android:textColor="?attr/colorOnSurface"/>
+
+                    <com.google.android.material.radiobutton.MaterialRadioButton
+                        android:id="@+id/radio_system"
+                        android:layout_width="match_parent"
+                        android:layout_height="56dp"
+                        android:text="System Default"
+                        android:gravity="center_vertical|start"
+                        android:paddingStart="8dp"
+                        android:textColor="?attr/colorOnSurface"/>
+                </RadioGroup>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
 
         <!-- Logout Button -->
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/btn_logout"
             android:layout_width="match_parent"
             android:layout_height="48dp"
-            android:layout_marginTop="24dp"
-            android:text="Log Out"
+            android:layout_marginTop="8dp"
+            android:text="Logout"
             android:textColor="@color/white"
-            android:backgroundTint="@color/colorAccent"
-            android:textAllCaps="false"
-            style="@style/Widget.MaterialComponents.Button"
-            app:cornerRadius="8dp"/>
+            android:backgroundTint="@color/error_color"
+            app:cornerRadius="8dp"
+            style="@style/Widget.MaterialComponents.Button"/>
     </LinearLayout>
 </ScrollView>

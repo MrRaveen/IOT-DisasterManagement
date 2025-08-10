@@ -3,6 +3,8 @@
     <style name="Base.Theme.MAD_day3" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorSurfaceContainer">@color/surfaceContainer</item>
+        <item name="colorOutline">@color/outline_color</item>
     </style>
 
     <style name="Theme.MAD_day3" parent="Base.Theme.MAD_day3" />
