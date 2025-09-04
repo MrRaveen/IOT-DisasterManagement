@@ -42,14 +42,14 @@ class loadCardsController {
     val RainfallRef: DatabaseReference = database.getReference("Sensors/BMP180Readings")
     val WaterLevelRef: DatabaseReference = database.getReference("Sensors/waterLevelSensor/levelData")
     var RainReadRef : DatabaseReference = database.getReference("Sensors/RainReadings")
+    var  RainReadRef2 = database.getReference("Sensors/FloodsRainReadings")
     private var rainEventListenerSlide : ValueEventListener? = null
     private var tiltEventListener: ValueEventListener? = null
     private var MotionEventListener2: ValueEventListener? = null
     private var rainfallListenerInputSection: ValueEventListener? = null
     private var waterLevelInputSection: ValueEventListener? = null
     public fun getRainDataLandsFlood(view : View, cityName : String?, context : Context){
-        RainReadRef = database.getReference("Sensors/FloodsRainReadings")
-        rainEventListenerSlide?.let { RainReadRef.removeEventListener(it) }
+        rainEventListenerSlide?.let { RainReadRef2.removeEventListener(it) }
         rainEventListenerSlide = object  : ValueEventListener{
             override fun onDataChange(snapshot: DataSnapshot) {
                 var latestReading: WaterLevelSensorData? = null
