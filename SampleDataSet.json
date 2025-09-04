@@ -1,0 +1,3222 @@
+{
+  "Sensors": {
+    "BMP180Readings": {
+      "7011": {
+        "altitude_m": 10,
+        "location": "Gampaha",
+        "pressure_hPa": 992.70001,
+        "temperature_C": 29.8,
+        "timestamp": "2025-08-14 12:24:59"
+      },
+      "9020": {
+        "altitude_m": 10,
+        "location": "Gampaha",
+        "pressure_hPa": 992.66998,
+        "temperature_C": 29.9,
+        "timestamp": "2025-08-14 12:25:01"
+      },
+      "11268": {
+        "altitude_m": 10,
+        "location": "Gampaha",
+        "pressure_hPa": 992.58002,
+        "temperature_C": 29.9,
+        "timestamp": "2025-08-14 12:25:03"
+      },
+      "13276": {
+        "altitude_m": 10,
+        "location": "Gampaha",
+        "pressure_hPa": 992.66998,
+        "temperature_C": 29.9,
+        "timestamp": "2025-08-14 12:25:05"
+      },
+      "15282": {
+        "altitude_m": 10,
+        "location": "Gampaha",
+        "pressure_hPa": 992.63,
+        "temperature_C": 29.9,
+        "timestamp": "2025-08-14 12:25:07"
+      },
+      "17288": {
+        "altitude_m": 10,
+        "location": "Gampaha",
+        "pressure_hPa": 992.63,
+        "temperature_C": 29.9,
+        "timestamp": "2025-08-14 12:25:09"
+      },
+      "19289": {
+        "altitude_m": 10,
+        "location": "Gampaha",
+        "pressure_hPa": 992.66998,
+        "temperature_C": 29.9,
+        "timestamp": "2025-08-14 12:25:11"
+      },
+      "21296": {
+        "altitude_m": 10,
+        "location": "Gampaha",
+        "pressure_hPa": 992.71002,
+        "temperature_C": 29.9,
+        "timestamp": "2025-08-14 12:25:13"
+      },
+      "23301": {
+        "altitude_m": 10,
+        "location": "Gampaha",
+        "pressure_hPa": 992.59003,
+        "temperature_C": 29.9,
+        "timestamp": "2025-08-14 12:25:15"
+      },
+      "25303": {
+        "altitude_m": 10,
+        "location": "Gampaha",
+        "pressure_hPa": 992.62,
+        "temperature_C": 29.9,
+        "timestamp": "2025-08-14 12:25:17"
+      },
+      "27402": {
+        "altitude_m": 10,
+        "location": "Gampaha",
+        "pressure_hPa": 992.66998,
+        "temperature_C": 29.9,
+        "timestamp": "2025-08-14 12:25:19"
+      },
+      "29406": {
+        "altitude_m": 10,
+        "location": "Gampaha",
+        "pressure_hPa": 992.69,
+        "temperature_C": 29.9,
+        "timestamp": "2025-08-14 12:25:21"
+      },
+      "31409": {
+        "altitude_m": 10,
+        "location": "Gampaha",
+        "pressure_hPa": 992.70001,
+        "temperature_C": 29.9,
+        "timestamp": "2025-08-14 12:25:23"
+      },
+            "31408": {
+        "altitude_m": 10,
+        "location": "Gampaha",
+        "pressure_hPa": 992.70001,
+        "temperature_C": 35.9,
+        "timestamp": "2025-08-14 12:28:23"
+      },
+                  "31475": {
+        "altitude_m": 100,
+        "location": "Gampaha",
+        "pressure_hPa": 992.70001,
+        "temperature_C": 36.9,
+        "timestamp": "2025-08-14 12:58:23"
+      },
+                        "31476": {
+        "altitude_m": 1000,
+        "location": "Gampaha",
+        "pressure_hPa": 992.70001,
+        "temperature_C": 38,
+        "timestamp": "2025-08-14 12:59:23"
+      }
+    },
+    "FloodsRainReadings": {
+      "7011": {
+        "analog": 193,
+        "digital": 0,
+        "location": "Gampaha",
+        "timestamp": "2025-08-14 12:24:59"
+      },
+      "11017": {
+        "analog": 458,
+        "digital": 0,
+        "location": "Gampaha",
+        "timestamp": "2025-08-14 12:25:03"
+      },
+      "15017": {
+        "analog": 846,
+        "digital": 0,
+        "location": "Gampaha",
+        "timestamp": "2025-08-14 12:25:07"
+      },
+      "19019": {
+        "analog": 169,
+        "digital": 0,
+        "location": "Gampaha",
+        "timestamp": "2025-08-14 12:25:11"
+      },
+      "23023": {
+        "analog": 477,
+        "digital": 0,
+        "location": "Gampaha",
+        "timestamp": "2025-08-14 12:25:15"
+      },
+      "27023": {
+        "analog": 623,
+        "digital": 0,
+        "location": "Gampaha",
+        "timestamp": "2025-08-14 12:25:19"
+      },
+      "31029": {
+        "analog": 197,
+        "digital": 0,
+        "location": "Gampaha",
+        "timestamp": "2025-08-14 12:25:23"
+      },
+      "35029": {
+        "analog": 907,
+        "digital": 0,
+        "location": "Gampaha",
+        "timestamp": "2025-08-14 12:25:27"
+      },
+      "39031": {
+        "analog": 176,
+        "digital": 0,
+        "location": "Gampaha",
+        "timestamp": "2025-08-14 12:25:31"
+      },
+      "43040": {
+        "analog": 179,
+        "digital": 0,
+        "location": "Gampaha",
+        "timestamp": "2025-08-14 12:25:35"
+      },
+      "423519": {
+        "analog": 1120,
+        "digital": 0,
+        "location": "Gampaha",
+        "timestamp": "2025-08-14 12:31:55"
+      }
+    },
+    "MPU6050Readings": {
+      "7011": {
+        "accelX": -0.00669,
+        "accelY": -0.00074,
+        "accelZ": 1.00598,
+        "gyroX": -0.26782,
+        "gyroY": 0.43469,
+        "gyroZ": 1.45329,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:24:59"
+      },
+      "9020": {
+        "accelX": -0.00352,
+        "accelY": -0.00465,
+        "accelZ": 1.00622,
+        "gyroX": -0.48156,
+        "gyroY": 0.44995,
+        "gyroZ": 1.48382,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:25:01"
+      },
+      "11268": {
+        "accelX": 0.00063,
+        "accelY": -0.00318,
+        "accelZ": 0.99744,
+        "gyroX": -0.54262,
+        "gyroY": 0.51102,
+        "gyroZ": 0.90367,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:25:03"
+      },
+      "13276": {
+        "accelX": 0.00381,
+        "accelY": -0.00172,
+        "accelZ": 1.00232,
+        "gyroX": -0.32888,
+        "gyroY": 0.43469,
+        "gyroZ": 1.34642,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:25:05"
+      },
+      "15282": {
+        "accelX": -0.00425,
+        "accelY": -0.0005,
+        "accelZ": 0.99866,
+        "gyroX": -0.38995,
+        "gyroY": 0.41942,
+        "gyroZ": 1.43802,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:25:07"
+      },
+      "17288": {
+        "accelX": 0.00088,
+        "accelY": 0.00024,
+        "accelZ": 0.99451,
+        "gyroX": -0.25255,
+        "gyroY": 0.12934,
+        "gyroZ": 1.51435,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:25:09"
+      },
+      "19289": {
+        "accelX": -0.00035,
+        "accelY": 0.00243,
+        "accelZ": 0.99695,
+        "gyroX": -0.58843,
+        "gyroY": 0.28202,
+        "gyroZ": 1.33115,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:25:11"
+      },
+      "21296": {
+        "accelX": 0.00161,
+        "accelY": -0.01588,
+        "accelZ": 1.005,
+        "gyroX": -0.52736,
+        "gyroY": 0.23621,
+        "gyroZ": 1.0258,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:25:13"
+      },
+      "23301": {
+        "accelX": 0.00112,
+        "accelY": -0.0005,
+        "accelZ": 1.00085,
+        "gyroX": -0.45102,
+        "gyroY": 0.41942,
+        "gyroZ": 1.56016,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:25:15"
+      },
+      "25303": {
+        "accelX": -0.0062,
+        "accelY": -0.00318,
+        "accelZ": 0.9989,
+        "gyroX": -0.40522,
+        "gyroY": 0.34308,
+        "gyroZ": 1.42275,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:25:17"
+      },
+      "27402": {
+        "accelX": 0.00454,
+        "accelY": 0.00024,
+        "accelZ": 0.99866,
+        "gyroX": -0.63423,
+        "gyroY": 0.26675,
+        "gyroZ": 1.36168,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:25:19"
+      },
+      "29406": {
+        "accelX": -0.00303,
+        "accelY": -0.00196,
+        "accelZ": 0.99963,
+        "gyroX": -0.37469,
+        "gyroY": 0.69423,
+        "gyroZ": 1.56016,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:25:21"
+      },
+      "31409": {
+        "accelX": 0.00039,
+        "accelY": -0.00098,
+        "accelZ": 1.00159,
+        "gyroX": -0.7411,
+        "gyroY": 0.46522,
+        "gyroZ": 1.45329,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:25:23"
+      },
+      "33416": {
+        "accelX": -0.00474,
+        "accelY": 0.00048,
+        "accelZ": 1.00598,
+        "gyroX": -0.46629,
+        "gyroY": 0.52629,
+        "gyroZ": 1.33115,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:25:25"
+      },
+      "35419": {
+        "accelX": -0.00205,
+        "accelY": -0.00221,
+        "accelZ": 0.99939,
+        "gyroX": -0.45102,
+        "gyroY": 0.49576,
+        "gyroZ": 1.51435,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:25:27"
+      },
+      "37424": {
+        "accelX": -0.00108,
+        "accelY": -0.00562,
+        "accelZ": 1.00012,
+        "gyroX": -0.66476,
+        "gyroY": 0.44995,
+        "gyroZ": 1.40748,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:25:29"
+      },
+      "39427": {
+        "accelX": -0.00767,
+        "accelY": 0.0017,
+        "accelZ": 0.98523,
+        "gyroX": -0.6495,
+        "gyroY": 0.31255,
+        "gyroZ": 1.34642,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:25:31"
+      },
+      "41432": {
+        "accelX": 0.00014,
+        "accelY": -0.00562,
+        "accelZ": 0.99353,
+        "gyroX": -0.52736,
+        "gyroY": 0.38889,
+        "gyroZ": 1.63649,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:25:33"
+      },
+      "43434": {
+        "accelX": -0.00181,
+        "accelY": -0.00709,
+        "accelZ": 0.99841,
+        "gyroX": -0.51209,
+        "gyroY": 0.20568,
+        "gyroZ": 1.37695,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:25:35"
+      },
+      "45434": {
+        "accelX": 0.00039,
+        "accelY": -0.00709,
+        "accelZ": 0.99646,
+        "gyroX": -0.25255,
+        "gyroY": 0.44995,
+        "gyroZ": 1.56016,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:25:37"
+      },
+      "47441": {
+        "accelX": -0.00645,
+        "accelY": -0.00465,
+        "accelZ": 0.99939,
+        "gyroX": -0.40522,
+        "gyroY": 0.52629,
+        "gyroZ": 1.28535,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:25:39"
+      },
+      "49449": {
+        "accelX": -0.00108,
+        "accelY": -0.0044,
+        "accelZ": 1.00354,
+        "gyroX": -0.52736,
+        "gyroY": 0.54156,
+        "gyroZ": 1.34642,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:25:41"
+      },
+      "51458": {
+        "accelX": -0.00425,
+        "accelY": -0.00587,
+        "accelZ": 1.00403,
+        "gyroX": -0.49682,
+        "gyroY": 0.54156,
+        "gyroZ": 1.42275,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:25:43"
+      },
+      "53463": {
+        "accelX": -0.00474,
+        "accelY": -0.00538,
+        "accelZ": 0.99988,
+        "gyroX": -0.49682,
+        "gyroY": 0.41942,
+        "gyroZ": 1.43802,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:25:45"
+      },
+      "55466": {
+        "accelX": -0.00352,
+        "accelY": -0.00318,
+        "accelZ": 1.00061,
+        "gyroX": -0.57316,
+        "gyroY": 0.52629,
+        "gyroZ": 1.49909,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:25:47"
+      },
+      "57472": {
+        "accelX": 0.00234,
+        "accelY": -0.00147,
+        "accelZ": 1.00891,
+        "gyroX": -0.52736,
+        "gyroY": 0.60263,
+        "gyroZ": 1.54489,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:25:49"
+      },
+      "59479": {
+        "accelX": -0.00572,
+        "accelY": -0.00294,
+        "accelZ": 1.00647,
+        "gyroX": -0.43575,
+        "gyroY": 0.72476,
+        "gyroZ": 1.37695,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:25:51"
+      },
+      "61487": {
+        "accelX": -0.00059,
+        "accelY": -0.0066,
+        "accelZ": 0.99744,
+        "gyroX": -0.37469,
+        "gyroY": 0.48049,
+        "gyroZ": 1.52962,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:25:53"
+      },
+      "63493": {
+        "accelX": -0.01792,
+        "accelY": 0.00121,
+        "accelZ": 0.99231,
+        "gyroX": -1.13805,
+        "gyroY": -0.40501,
+        "gyroZ": 1.19374,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:25:55"
+      },
+      "65498": {
+        "accelX": -0.00157,
+        "accelY": -0.00196,
+        "accelZ": 0.98352,
+        "gyroX": -0.16095,
+        "gyroY": 1.01484,
+        "gyroZ": 1.28535,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:25:57"
+      },
+      "67507": {
+        "accelX": 0.00307,
+        "accelY": -0.00318,
+        "accelZ": 0.99182,
+        "gyroX": -2.52736,
+        "gyroY": -0.0386,
+        "gyroZ": 1.39222,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:25:59"
+      },
+      "69509": {
+        "accelX": 0.03994,
+        "accelY": -0.04151,
+        "accelZ": 0.89563,
+        "gyroX": -0.66476,
+        "gyroY": -0.23707,
+        "gyroZ": 1.04107,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:26:01"
+      },
+      "71513": {
+        "accelX": 0.04018,
+        "accelY": -0.03858,
+        "accelZ": 0.9115,
+        "gyroX": -0.02354,
+        "gyroY": 0.51102,
+        "gyroZ": 1.37695,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:26:03"
+      },
+      "73520": {
+        "accelX": 0.03921,
+        "accelY": -0.0481,
+        "accelZ": 0.89783,
+        "gyroX": -1.00064,
+        "gyroY": 0.81637,
+        "gyroZ": 1.88077,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:26:05"
+      },
+      "75522": {
+        "accelX": 0.03408,
+        "accelY": -0.03736,
+        "accelZ": 0.92834,
+        "gyroX": -2.51209,
+        "gyroY": -5.1531,
+        "gyroZ": -0.9742,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:26:07"
+      },
+      "77523": {
+        "accelX": 0.03139,
+        "accelY": -0.03516,
+        "accelZ": 0.89075,
+        "gyroX": 0.25127,
+        "gyroY": 0.99957,
+        "gyroZ": 1.37695,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:26:09"
+      },
+      "79529": {
+        "accelX": 0.03457,
+        "accelY": -0.03614,
+        "accelZ": 0.90051,
+        "gyroX": -1.61133,
+        "gyroY": 0.19041,
+        "gyroZ": 1.37695,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:26:11"
+      },
+      "81537": {
+        "accelX": 0.03945,
+        "accelY": -0.03248,
+        "accelZ": 0.89978,
+        "gyroX": 1.28944,
+        "gyroY": 2.7095,
+        "gyroZ": 2.91893,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:26:13"
+      },
+      "83537": {
+        "accelX": 0.03896,
+        "accelY": -0.03028,
+        "accelZ": 0.90246,
+        "gyroX": -1.44339,
+        "gyroY": -0.49661,
+        "gyroZ": 0.91893,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:26:15"
+      },
+      "85543": {
+        "accelX": 0.03579,
+        "accelY": -0.03565,
+        "accelZ": 0.90173,
+        "gyroX": -0.34415,
+        "gyroY": 0.54156,
+        "gyroZ": 1.51435,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:26:17"
+      },
+      "87552": {
+        "accelX": 0.03798,
+        "accelY": -0.04298,
+        "accelZ": 0.91028,
+        "gyroX": 1.88486,
+        "gyroY": 1.83927,
+        "gyroZ": 1.23954,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:26:19"
+      },
+      "89557": {
+        "accelX": 0.06045,
+        "accelY": -0.05494,
+        "accelZ": 0.86609,
+        "gyroX": 3.67112,
+        "gyroY": 1.35072,
+        "gyroZ": 0.94947,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:26:21"
+      },
+      "91560": {
+        "accelX": 0.05532,
+        "accelY": -0.05372,
+        "accelZ": 0.90784,
+        "gyroX": -0.6953,
+        "gyroY": 0.57209,
+        "gyroZ": 1.46855,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:26:23"
+      },
+      "93564": {
+        "accelX": 0.05752,
+        "accelY": -0.05103,
+        "accelZ": 0.89831,
+        "gyroX": -0.57316,
+        "gyroY": 0.38889,
+        "gyroZ": 1.51435,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:26:25"
+      },
+      "95568": {
+        "accelX": 0.05654,
+        "accelY": -0.05445,
+        "accelZ": 0.90735,
+        "gyroX": -0.37469,
+        "gyroY": 0.58736,
+        "gyroZ": 1.46855,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:26:27"
+      },
+      "97574": {
+        "accelX": 0.04897,
+        "accelY": -0.05885,
+        "accelZ": 0.90417,
+        "gyroX": -0.6495,
+        "gyroY": 0.35835,
+        "gyroZ": 1.45329,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:26:29"
+      },
+      "99574": {
+        "accelX": 0.05239,
+        "accelY": -0.05445,
+        "accelZ": 0.90149,
+        "gyroX": -1.6724,
+        "gyroY": 0.43469,
+        "gyroZ": -0.51618,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:26:31"
+      },
+      "101578": {
+        "accelX": 0.05483,
+        "accelY": -0.04981,
+        "accelZ": 0.89978,
+        "gyroX": -0.16095,
+        "gyroY": 0.44995,
+        "gyroZ": 1.62122,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:26:33"
+      },
+      "103578": {
+        "accelX": 0.01089,
+        "accelY": -0.04932,
+        "accelZ": 0.90295,
+        "gyroX": -3.13805,
+        "gyroY": -0.16073,
+        "gyroZ": -5.2032,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:26:35"
+      },
+      "105583": {
+        "accelX": 0.04043,
+        "accelY": -0.04176,
+        "accelZ": 0.91955,
+        "gyroX": -0.40522,
+        "gyroY": 0.31255,
+        "gyroZ": 1.46855,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:26:37"
+      },
+      "107592": {
+        "accelX": 0.04287,
+        "accelY": -0.04713,
+        "accelZ": 0.90588,
+        "gyroX": -0.68003,
+        "gyroY": 0.49576,
+        "gyroZ": 1.52962,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:26:39"
+      },
+      "109595": {
+        "accelX": 0.04433,
+        "accelY": -0.04151,
+        "accelZ": 0.9198,
+        "gyroX": -0.61896,
+        "gyroY": 0.31255,
+        "gyroZ": 1.62122,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:26:41"
+      },
+      "111599": {
+        "accelX": 0.03506,
+        "accelY": -0.04493,
+        "accelZ": 0.90857,
+        "gyroX": -4.40522,
+        "gyroY": -1.1989,
+        "gyroZ": -6.40931,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:26:43"
+      },
+      "113607": {
+        "accelX": 0.04458,
+        "accelY": -0.0547,
+        "accelZ": 0.91589,
+        "gyroX": -0.42049,
+        "gyroY": 0.44995,
+        "gyroZ": 1.59069,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:26:45"
+      },
+      "115608": {
+        "accelX": 0.05117,
+        "accelY": -0.04469,
+        "accelZ": 0.91394,
+        "gyroX": -0.60369,
+        "gyroY": 0.28202,
+        "gyroZ": 1.45329,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:26:47"
+      },
+      "117609": {
+        "accelX": 0.05068,
+        "accelY": -0.04566,
+        "accelZ": 0.91321,
+        "gyroX": -0.58843,
+        "gyroY": 0.41942,
+        "gyroZ": 1.28535,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:26:49"
+      },
+      "119615": {
+        "accelX": 0.05117,
+        "accelY": -0.04981,
+        "accelZ": 0.90759,
+        "gyroX": -0.54262,
+        "gyroY": 0.35835,
+        "gyroZ": 1.60596,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:26:51"
+      },
+      "121617": {
+        "accelX": 0.04458,
+        "accelY": -0.04786,
+        "accelZ": 0.90954,
+        "gyroX": -0.71056,
+        "gyroY": 0.32782,
+        "gyroZ": 1.62122,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:26:53"
+      },
+      "123624": {
+        "accelX": 0.0519,
+        "accelY": -0.05348,
+        "accelZ": 0.91101,
+        "gyroX": -0.6953,
+        "gyroY": 0.58736,
+        "gyroZ": 1.20901,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:26:55"
+      },
+      "125630": {
+        "accelX": 0.04897,
+        "accelY": -0.05006,
+        "accelZ": 0.90588,
+        "gyroX": -0.63423,
+        "gyroY": 0.55682,
+        "gyroZ": 1.49909,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:26:57"
+      },
+      "127637": {
+        "accelX": 0.03872,
+        "accelY": -0.04005,
+        "accelZ": 0.91418,
+        "gyroX": -0.52736,
+        "gyroY": 0.69423,
+        "gyroZ": 1.19374,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:26:59"
+      },
+      "129637": {
+        "accelX": 0.04751,
+        "accelY": -0.04932,
+        "accelZ": 0.91321,
+        "gyroX": -0.54262,
+        "gyroY": 0.57209,
+        "gyroZ": 1.65176,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:27:01"
+      },
+      "131646": {
+        "accelX": 0.04897,
+        "accelY": -0.04664,
+        "accelZ": 0.91418,
+        "gyroX": -0.6495,
+        "gyroY": 0.49576,
+        "gyroZ": 1.19374,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:27:03"
+      },
+      "133647": {
+        "accelX": 0.05166,
+        "accelY": -0.05006,
+        "accelZ": 0.90832,
+        "gyroX": -0.45102,
+        "gyroY": 0.49576,
+        "gyroZ": 1.57542,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:27:05"
+      },
+      "135649": {
+        "accelX": 0.03945,
+        "accelY": -0.03736,
+        "accelZ": 0.91687,
+        "gyroX": -0.31362,
+        "gyroY": 0.54156,
+        "gyroZ": 1.52962,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:27:07"
+      },
+      "137651": {
+        "accelX": 0.04287,
+        "accelY": -0.04395,
+        "accelZ": 0.91199,
+        "gyroX": -0.54262,
+        "gyroY": 0.57209,
+        "gyroZ": 1.42275,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:27:09"
+      },
+      "139658": {
+        "accelX": 0.04775,
+        "accelY": -0.04322,
+        "accelZ": 0.91589,
+        "gyroX": -0.43575,
+        "gyroY": 0.31255,
+        "gyroZ": 1.40748,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:27:11"
+      },
+      "141664": {
+        "accelX": 0.04336,
+        "accelY": -0.05592,
+        "accelZ": 0.9176,
+        "gyroX": -1.84033,
+        "gyroY": 0.60263,
+        "gyroZ": 0.27771,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:27:13"
+      },
+      "143670": {
+        "accelX": 0.03921,
+        "accelY": -0.0503,
+        "accelZ": 0.91296,
+        "gyroX": -0.31362,
+        "gyroY": 1.04537,
+        "gyroZ": 1.8197,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:27:15"
+      },
+      "145672": {
+        "accelX": 0.05263,
+        "accelY": -0.0442,
+        "accelZ": 0.91125,
+        "gyroX": -0.66476,
+        "gyroY": -0.72562,
+        "gyroZ": 0.73573,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:27:17"
+      },
+      "147672": {
+        "accelX": 0.05678,
+        "accelY": -0.06812,
+        "accelZ": 0.90076,
+        "gyroX": 2.98409,
+        "gyroY": 4.32782,
+        "gyroZ": -2.16504,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:27:19"
+      },
+      "149676": {
+        "accelX": 0.06533,
+        "accelY": -0.06934,
+        "accelZ": 0.92468,
+        "gyroX": -0.71056,
+        "gyroY": 0.28202,
+        "gyroZ": -0.31771,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:27:21"
+      },
+      "151685": {
+        "accelX": 0.06215,
+        "accelY": -0.0564,
+        "accelZ": 0.92273,
+        "gyroX": -0.84797,
+        "gyroY": -0.40501,
+        "gyroZ": 1.43802,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:27:23"
+      },
+      "153693": {
+        "accelX": 0.06264,
+        "accelY": -0.05348,
+        "accelZ": 0.91516,
+        "gyroX": -1.30598,
+        "gyroY": -0.25234,
+        "gyroZ": 1.20901,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:27:25"
+      },
+      "155700": {
+        "accelX": 0.05923,
+        "accelY": -0.05201,
+        "accelZ": 0.90979,
+        "gyroX": -0.8785,
+        "gyroY": 0.25148,
+        "gyroZ": 1.83496,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:27:28"
+      },
+      "157705": {
+        "accelX": 0.05532,
+        "accelY": -0.04908,
+        "accelZ": 0.92102,
+        "gyroX": -0.6495,
+        "gyroY": 0.15988,
+        "gyroZ": 0.751,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:27:30"
+      },
+      "159709": {
+        "accelX": 0.06142,
+        "accelY": -0.05592,
+        "accelZ": 0.92712,
+        "gyroX": -0.46629,
+        "gyroY": 0.06827,
+        "gyroZ": 0.73573,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:27:32"
+      },
+      "161709": {
+        "accelX": 0.06191,
+        "accelY": -0.05323,
+        "accelZ": 0.91833,
+        "gyroX": 0.22073,
+        "gyroY": 1.15224,
+        "gyroZ": 1.7281,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:27:34"
+      },
+      "163718": {
+        "accelX": 0.04751,
+        "accelY": -0.0547,
+        "accelZ": 0.93201,
+        "gyroX": -1.39759,
+        "gyroY": 0.64843,
+        "gyroZ": 0.50672,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:27:36"
+      },
+      "165726": {
+        "accelX": 0.04702,
+        "accelY": -0.04835,
+        "accelZ": 0.91516,
+        "gyroX": -0.19148,
+        "gyroY": 1.56446,
+        "gyroZ": 1.10214,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:27:38"
+      },
+      "167728": {
+        "accelX": 0.05825,
+        "accelY": -0.05592,
+        "accelZ": 0.92493,
+        "gyroX": -1.13805,
+        "gyroY": 0.15988,
+        "gyroZ": 1.34642,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:27:40"
+      },
+      "169731": {
+        "accelX": 0.05068,
+        "accelY": -0.04664,
+        "accelZ": 0.9154,
+        "gyroX": -0.86324,
+        "gyroY": 0.05301,
+        "gyroZ": 0.43038,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:27:42"
+      },
+      "171740": {
+        "accelX": 0.05166,
+        "accelY": -0.05714,
+        "accelZ": 0.92248,
+        "gyroX": 0.48028,
+        "gyroY": 0.8927,
+        "gyroZ": 1.65176,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:27:44"
+      },
+      "173747": {
+        "accelX": 0.04604,
+        "accelY": -0.06764,
+        "accelZ": 0.92859,
+        "gyroX": 0.73982,
+        "gyroY": 2.15988,
+        "gyroZ": 2.15558,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:27:46"
+      },
+      "175753": {
+        "accelX": 0.05874,
+        "accelY": -0.05372,
+        "accelZ": 0.92224,
+        "gyroX": -0.71056,
+        "gyroY": 0.40415,
+        "gyroZ": 1.19374,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:27:48"
+      },
+      "177757": {
+        "accelX": 0.05263,
+        "accelY": -0.05665,
+        "accelZ": 0.92151,
+        "gyroX": -0.66476,
+        "gyroY": 0.57209,
+        "gyroZ": 1.46855,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:27:50"
+      },
+      "179762": {
+        "accelX": 0.05385,
+        "accelY": -0.05225,
+        "accelZ": 0.91931,
+        "gyroX": -0.72583,
+        "gyroY": 0.49576,
+        "gyroZ": 1.54489,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:27:52"
+      },
+      "181768": {
+        "accelX": 0.08169,
+        "accelY": -0.07838,
+        "accelZ": 0.89221,
+        "gyroX": -0.34415,
+        "gyroY": 0.49576,
+        "gyroZ": 1.52962,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:27:54"
+      },
+      "183772": {
+        "accelX": 0.0834,
+        "accelY": -0.07203,
+        "accelZ": 0.87585,
+        "gyroX": -0.55789,
+        "gyroY": 0.58736,
+        "gyroZ": 1.66703,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:27:56"
+      },
+      "185776": {
+        "accelX": 0.12978,
+        "accelY": -0.0962,
+        "accelZ": 0.8966,
+        "gyroX": 7.50318,
+        "gyroY": 1.824,
+        "gyroZ": 13.31588,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:27:58"
+      },
+      "187857": {
+        "accelX": 0.18984,
+        "accelY": -0.15113,
+        "accelZ": 0.84582,
+        "gyroX": -0.95484,
+        "gyroY": -0.09966,
+        "gyroZ": -0.83679,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:28:00"
+      },
+      "189864": {
+        "accelX": 0.17202,
+        "accelY": -0.19117,
+        "accelZ": 0.87683,
+        "gyroX": 3.33524,
+        "gyroY": 22.23621,
+        "gyroZ": -40.36351,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:28:02"
+      },
+      "191866": {
+        "accelX": 0.47597,
+        "accelY": 0.35815,
+        "accelZ": 1.84192,
+        "gyroX": 0.40394,
+        "gyroY": 0.25148,
+        "gyroZ": -2.59252,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:28:04"
+      },
+      "193870": {
+        "accelX": 0.5143,
+        "accelY": 0.40258,
+        "accelZ": 1.86462,
+        "gyroX": -2.75637,
+        "gyroY": 9.8698,
+        "gyroZ": 5.20901,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:28:06"
+      },
+      "195870": {
+        "accelX": 0.7333,
+        "accelY": 0.15624,
+        "accelZ": 1.82849,
+        "gyroX": 6.69402,
+        "gyroY": -0.78669,
+        "gyroZ": -5.64595,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:28:08"
+      },
+      "197877": {
+        "accelX": 0.72256,
+        "accelY": 0.33031,
+        "accelZ": 1.87317,
+        "gyroX": -0.7869,
+        "gyroY": 2.60263,
+        "gyroZ": -1.55435,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:28:10"
+      },
+      "199881": {
+        "accelX": 0.41006,
+        "accelY": -0.37403,
+        "accelZ": 0.57483,
+        "gyroX": -224.05408,
+        "gyroY": 155.38126,
+        "gyroZ": -28.45511,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:28:12"
+      },
+      "201886": {
+        "accelX": 0.23037,
+        "accelY": -0.10084,
+        "accelZ": 0.91711,
+        "gyroX": -56.42049,
+        "gyroY": 13.07591,
+        "gyroZ": -83.55435,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:28:14"
+      },
+      "203889": {
+        "accelX": 0.18178,
+        "accelY": -0.13404,
+        "accelZ": 0.87781,
+        "gyroX": -0.77163,
+        "gyroY": 0.41942,
+        "gyroZ": 1.59069,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:28:16"
+      },
+      "205896": {
+        "accelX": 0.18007,
+        "accelY": -0.12696,
+        "accelZ": 0.88537,
+        "gyroX": -1.77927,
+        "gyroY": 0.72476,
+        "gyroZ": 0.15558,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:28:18"
+      },
+      "207901": {
+        "accelX": 0.18081,
+        "accelY": -0.13355,
+        "accelZ": 0.89343,
+        "gyroX": -0.7411,
+        "gyroY": -0.1302,
+        "gyroZ": 1.49909,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:28:20"
+      },
+      "209904": {
+        "accelX": 0.18154,
+        "accelY": -0.12794,
+        "accelZ": 0.89831,
+        "gyroX": 0.11386,
+        "gyroY": -0.83249,
+        "gyroZ": 1.63649,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:28:22"
+      },
+      "211911": {
+        "accelX": 0.17104,
+        "accelY": -0.12696,
+        "accelZ": 0.89953,
+        "gyroX": -0.38995,
+        "gyroY": 0.61789,
+        "gyroZ": 1.40748,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:28:24"
+      },
+      "213913": {
+        "accelX": 0.17446,
+        "accelY": -0.13282,
+        "accelZ": 0.89758,
+        "gyroX": -0.95484,
+        "gyroY": 0.31255,
+        "gyroZ": 0.81206,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:28:26"
+      },
+      "215916": {
+        "accelX": 0.17861,
+        "accelY": -0.13062,
+        "accelZ": 0.89587,
+        "gyroX": -0.40522,
+        "gyroY": 0.60263,
+        "gyroZ": 1.78916,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:28:28"
+      },
+      "217919": {
+        "accelX": 0.17739,
+        "accelY": -0.12916,
+        "accelZ": 0.89294,
+        "gyroX": -0.72583,
+        "gyroY": 0.48049,
+        "gyroZ": 1.49909,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:28:30"
+      },
+      "219928": {
+        "accelX": 0.17592,
+        "accelY": -0.13038,
+        "accelZ": 0.90735,
+        "gyroX": -1.94721,
+        "gyroY": 1.33545,
+        "gyroZ": -0.50091,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:28:32"
+      },
+      "221934": {
+        "accelX": 0.17861,
+        "accelY": -0.13673,
+        "accelZ": 0.89465,
+        "gyroX": -0.58843,
+        "gyroY": 0.54156,
+        "gyroZ": 1.22428,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:28:34"
+      },
+      "223942": {
+        "accelX": 0.17495,
+        "accelY": -0.13233,
+        "accelZ": 0.90198,
+        "gyroX": -0.63423,
+        "gyroY": 0.32782,
+        "gyroZ": 1.43802,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:28:36"
+      },
+      "225948": {
+        "accelX": 0.15298,
+        "accelY": -0.14454,
+        "accelZ": 0.89929,
+        "gyroX": -1.38232,
+        "gyroY": -2.34394,
+        "gyroZ": -1.56962,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:28:38"
+      },
+      "227952": {
+        "accelX": 0.17348,
+        "accelY": -0.12745,
+        "accelZ": 0.8822,
+        "gyroX": -0.38995,
+        "gyroY": 1.15224,
+        "gyroZ": 2.27771,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:28:40"
+      },
+      "229959": {
+        "accelX": 0.17299,
+        "accelY": -0.11451,
+        "accelZ": 0.90344,
+        "gyroX": -2.84797,
+        "gyroY": 0.96904,
+        "gyroZ": -2.85206,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:28:42"
+      },
+      "232017": {
+        "accelX": 0.16811,
+        "accelY": -0.12598,
+        "accelZ": 0.901,
+        "gyroX": -0.55789,
+        "gyroY": 0.77056,
+        "gyroZ": 1.71283,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:28:44"
+      },
+      "234022": {
+        "accelX": 0.03408,
+        "accelY": -0.10401,
+        "accelZ": 1.08166,
+        "gyroX": -46.93958,
+        "gyroY": 40.34309,
+        "gyroZ": 18.29298,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:28:46"
+      },
+      "236023": {
+        "accelX": 0.15542,
+        "accelY": -0.12013,
+        "accelZ": 0.92053,
+        "gyroX": -0.75637,
+        "gyroY": 0.72476,
+        "gyroZ": 1.27008,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:28:48"
+      },
+      "238024": {
+        "accelX": 0.15151,
+        "accelY": -0.09791,
+        "accelZ": 0.91492,
+        "gyroX": -1.04644,
+        "gyroY": 0.90797,
+        "gyroZ": -1.05053,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:28:50"
+      },
+      "240032": {
+        "accelX": 0.16567,
+        "accelY": -0.12989,
+        "accelZ": 0.8822,
+        "gyroX": -0.54262,
+        "gyroY": 0.22095,
+        "gyroZ": 1.65176,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:28:52"
+      },
+      "242035": {
+        "accelX": 0.16689,
+        "accelY": -0.12501,
+        "accelZ": 0.87707,
+        "gyroX": -0.48156,
+        "gyroY": 0.48049,
+        "gyroZ": 1.42275,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:28:54"
+      },
+      "244036": {
+        "accelX": 0.1686,
+        "accelY": -0.12647,
+        "accelZ": 0.87048,
+        "gyroX": -0.60369,
+        "gyroY": 0.63316,
+        "gyroZ": 1.57542,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:28:56"
+      },
+      "246042": {
+        "accelX": 0.16591,
+        "accelY": -0.13233,
+        "accelZ": 0.87756,
+        "gyroX": -0.89377,
+        "gyroY": 0.48049,
+        "gyroZ": 1.33115,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:28:58"
+      },
+      "248046": {
+        "accelX": 0.17202,
+        "accelY": -0.12647,
+        "accelZ": 0.86633,
+        "gyroX": -0.49682,
+        "gyroY": 0.7095,
+        "gyroZ": 1.71283,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:29:00"
+      },
+      "250050": {
+        "accelX": 0.16543,
+        "accelY": -0.12232,
+        "accelZ": 0.88244,
+        "gyroX": 0.77035,
+        "gyroY": -0.16073,
+        "gyroZ": 1.48382,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:29:02"
+      },
+      "252052": {
+        "accelX": 0.17006,
+        "accelY": -0.12989,
+        "accelZ": 0.8822,
+        "gyroX": -0.52736,
+        "gyroY": 0.58736,
+        "gyroZ": 1.42275,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:29:04"
+      },
+      "254054": {
+        "accelX": 0.16884,
+        "accelY": -0.12403,
+        "accelZ": 0.8717,
+        "gyroX": -0.46629,
+        "gyroY": 0.54156,
+        "gyroZ": 1.37695,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:29:06"
+      },
+      "256063": {
+        "accelX": 0.16884,
+        "accelY": -0.1255,
+        "accelZ": 0.87707,
+        "gyroX": -0.49682,
+        "gyroY": 0.43469,
+        "gyroZ": 1.60596,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:29:08"
+      },
+      "258065": {
+        "accelX": 0.16738,
+        "accelY": -0.12623,
+        "accelZ": 0.87561,
+        "gyroX": -0.60369,
+        "gyroY": 0.64843,
+        "gyroZ": 1.40748,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:29:10"
+      },
+      "260069": {
+        "accelX": 0.1686,
+        "accelY": -0.13282,
+        "accelZ": 0.88049,
+        "gyroX": 0.20547,
+        "gyroY": 0.48049,
+        "gyroZ": 2.70519,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:29:12"
+      },
+      "262075": {
+        "accelX": 0.16665,
+        "accelY": -0.12501,
+        "accelZ": 0.88537,
+        "gyroX": -0.93957,
+        "gyroY": 0.58736,
+        "gyroZ": 1.19374,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:29:14"
+      },
+      "264075": {
+        "accelX": 0.16274,
+        "accelY": -0.1233,
+        "accelZ": 0.87952,
+        "gyroX": -0.42049,
+        "gyroY": 0.58736,
+        "gyroZ": 1.34642,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:29:16"
+      },
+      "266077": {
+        "accelX": 0.16689,
+        "accelY": -0.12647,
+        "accelZ": 0.88196,
+        "gyroX": -0.45102,
+        "gyroY": 0.38889,
+        "gyroZ": 1.59069,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:29:18"
+      },
+      "268082": {
+        "accelX": 0.16738,
+        "accelY": -0.12403,
+        "accelZ": 0.87366,
+        "gyroX": -0.7869,
+        "gyroY": 0.81637,
+        "gyroZ": 0.9342,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:29:20"
+      },
+      "270087": {
+        "accelX": 0.16421,
+        "accelY": -0.13136,
+        "accelZ": 0.8866,
+        "gyroX": -0.68003,
+        "gyroY": 0.74003,
+        "gyroZ": 1.25481,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:29:22"
+      },
+      "272089": {
+        "accelX": 0.16982,
+        "accelY": -0.1211,
+        "accelZ": 0.87878,
+        "gyroX": -0.28308,
+        "gyroY": 0.38889,
+        "gyroZ": 1.94184,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:29:24"
+      },
+      "274092": {
+        "accelX": 0.16567,
+        "accelY": -0.12891,
+        "accelZ": 0.88171,
+        "gyroX": -0.49682,
+        "gyroY": 0.55682,
+        "gyroZ": 1.42275,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:29:26"
+      },
+      "276096": {
+        "accelX": 0.16396,
+        "accelY": -0.11744,
+        "accelZ": 0.88635,
+        "gyroX": -0.54262,
+        "gyroY": 0.63316,
+        "gyroZ": 1.54489,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:29:28"
+      },
+      "278100": {
+        "accelX": 0.17251,
+        "accelY": -0.12428,
+        "accelZ": 0.87878,
+        "gyroX": -0.58843,
+        "gyroY": 0.34308,
+        "gyroZ": 1.40748,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:29:30"
+      },
+      "280100": {
+        "accelX": 0.16811,
+        "accelY": -0.12867,
+        "accelZ": 0.87903,
+        "gyroX": -0.46629,
+        "gyroY": 0.35835,
+        "gyroZ": 1.52962,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:29:32"
+      },
+      "282103": {
+        "accelX": 0.17275,
+        "accelY": -0.12525,
+        "accelZ": 0.87781,
+        "gyroX": -0.72583,
+        "gyroY": 0.64843,
+        "gyroZ": 1.46855,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:29:34"
+      },
+      "284106": {
+        "accelX": 0.17251,
+        "accelY": -0.13526,
+        "accelZ": 0.86999,
+        "gyroX": 0.81615,
+        "gyroY": 0.20568,
+        "gyroZ": 3.20901,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:29:36"
+      },
+      "286114": {
+        "accelX": 0.1747,
+        "accelY": -0.11695,
+        "accelZ": 0.87781,
+        "gyroX": -1.50446,
+        "gyroY": 0.83163,
+        "gyroZ": 0.14031,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:29:38"
+      },
+      "288121": {
+        "accelX": 0.16933,
+        "accelY": -0.12891,
+        "accelZ": 0.88879,
+        "gyroX": 0.25127,
+        "gyroY": 0.20568,
+        "gyroZ": 2.70519,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:29:40"
+      },
+      "290125": {
+        "accelX": 0.16616,
+        "accelY": -0.13477,
+        "accelZ": 0.87756,
+        "gyroX": -1.8098,
+        "gyroY": 0.19041,
+        "gyroZ": -1.08107,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:29:42"
+      },
+      "292130": {
+        "accelX": 0.16836,
+        "accelY": -0.12061,
+        "accelZ": 0.87512,
+        "gyroX": -0.22201,
+        "gyroY": 0.54156,
+        "gyroZ": 1.88077,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:29:44"
+      },
+      "294136": {
+        "accelX": 0.16811,
+        "accelY": -0.12672,
+        "accelZ": 0.87732,
+        "gyroX": -1.44339,
+        "gyroY": 1.13698,
+        "gyroZ": 0.33878,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:29:46"
+      },
+      "296142": {
+        "accelX": 0.1664,
+        "accelY": -0.12769,
+        "accelZ": 0.87585,
+        "gyroX": -0.8327,
+        "gyroY": 0.46522,
+        "gyroZ": 1.39222,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:29:48"
+      },
+      "298149": {
+        "accelX": 0.17251,
+        "accelY": -0.12965,
+        "accelZ": 0.86633,
+        "gyroX": -0.51209,
+        "gyroY": 0.78583,
+        "gyroZ": 1.56016,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:29:50"
+      },
+      "300152": {
+        "accelX": 0.16982,
+        "accelY": -0.1294,
+        "accelZ": 0.87414,
+        "gyroX": -0.23728,
+        "gyroY": 0.66369,
+        "gyroZ": 1.43802,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:29:52"
+      },
+      "302160": {
+        "accelX": 0.16909,
+        "accelY": -0.1294,
+        "accelZ": 0.87927,
+        "gyroX": -0.58843,
+        "gyroY": 0.51102,
+        "gyroZ": 1.48382,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:29:54"
+      },
+      "304165": {
+        "accelX": 0.16958,
+        "accelY": -0.12501,
+        "accelZ": 0.88489,
+        "gyroX": -0.58843,
+        "gyroY": 0.52629,
+        "gyroZ": 1.59069,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:29:56"
+      },
+      "306172": {
+        "accelX": 0.17153,
+        "accelY": -0.1255,
+        "accelZ": 0.88049,
+        "gyroX": -0.72583,
+        "gyroY": 0.54156,
+        "gyroZ": 1.39222,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:29:58"
+      },
+      "308174": {
+        "accelX": 0.17006,
+        "accelY": -0.12257,
+        "accelZ": 0.87781,
+        "gyroX": 0.15967,
+        "gyroY": 0.34308,
+        "gyroZ": 2.58306,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:30:00"
+      },
+      "310176": {
+        "accelX": 0.15664,
+        "accelY": -0.12257,
+        "accelZ": 0.87732,
+        "gyroX": 0.08333,
+        "gyroY": 0.35835,
+        "gyroZ": 2.30825,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:30:02"
+      },
+      "312181": {
+        "accelX": 0.16762,
+        "accelY": -0.12818,
+        "accelZ": 0.88611,
+        "gyroX": -0.34415,
+        "gyroY": 0.55682,
+        "gyroZ": 2.01817,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:30:04"
+      },
+      "314185": {
+        "accelX": 0.1686,
+        "accelY": -0.13014,
+        "accelZ": 0.8844,
+        "gyroX": 0.44974,
+        "gyroY": 0.38889,
+        "gyroZ": 2.8426,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:30:06"
+      },
+      "316188": {
+        "accelX": 0.17373,
+        "accelY": -0.12721,
+        "accelZ": 0.87781,
+        "gyroX": -0.71056,
+        "gyroY": 0.43469,
+        "gyroZ": 1.40748,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:30:08"
+      },
+      "318191": {
+        "accelX": 0.17446,
+        "accelY": -0.12891,
+        "accelZ": 0.88098,
+        "gyroX": -0.60369,
+        "gyroY": 0.35835,
+        "gyroZ": 1.25481,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:30:10"
+      },
+      "320197": {
+        "accelX": 0.16494,
+        "accelY": -0.12696,
+        "accelZ": 0.87683,
+        "gyroX": -0.51209,
+        "gyroY": 0.55682,
+        "gyroZ": 1.17848,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:30:12"
+      },
+      "322199": {
+        "accelX": 0.16738,
+        "accelY": -0.12745,
+        "accelZ": 0.87634,
+        "gyroX": -0.31362,
+        "gyroY": 0.49576,
+        "gyroZ": 1.56016,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:30:14"
+      },
+      "324206": {
+        "accelX": 0.16836,
+        "accelY": -0.1294,
+        "accelZ": 0.8739,
+        "gyroX": -0.49682,
+        "gyroY": 0.31255,
+        "gyroZ": 1.51435,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:30:16"
+      },
+      "326210": {
+        "accelX": 0.21963,
+        "accelY": -0.13014,
+        "accelZ": 0.73669,
+        "gyroX": -1.9014,
+        "gyroY": 1.44232,
+        "gyroZ": -0.21084,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:30:18"
+      },
+      "328216": {
+        "accelX": 0.22939,
+        "accelY": -0.12794,
+        "accelZ": 0.72766,
+        "gyroX": 0.46501,
+        "gyroY": 0.46522,
+        "gyroZ": 3.16321,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:30:20"
+      },
+      "330222": {
+        "accelX": 0.22304,
+        "accelY": -0.12891,
+        "accelZ": 0.72986,
+        "gyroX": 2.54134,
+        "gyroY": -0.72562,
+        "gyroZ": 2.8884,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:30:22"
+      },
+      "332230": {
+        "accelX": 0.22548,
+        "accelY": -0.13453,
+        "accelZ": 0.70886,
+        "gyroX": -0.66476,
+        "gyroY": 1.12171,
+        "gyroZ": 1.19374,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:30:24"
+      },
+      "334234": {
+        "accelX": 0.22402,
+        "accelY": -0.13551,
+        "accelZ": 0.72864,
+        "gyroX": 0.48028,
+        "gyroY": 0.67896,
+        "gyroZ": 2.38458,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:30:26"
+      },
+      "336239": {
+        "accelX": 0.21963,
+        "accelY": -0.12794,
+        "accelZ": 0.72888,
+        "gyroX": 0.78562,
+        "gyroY": 0.28202,
+        "gyroZ": 1.23954,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:30:28"
+      },
+      "338242": {
+        "accelX": 0.22158,
+        "accelY": -0.13136,
+        "accelZ": 0.73205,
+        "gyroX": -1.36705,
+        "gyroY": 0.25148,
+        "gyroZ": 0.8884,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:30:30"
+      },
+      "340244": {
+        "accelX": 0.2228,
+        "accelY": -0.13526,
+        "accelZ": 0.74328,
+        "gyroX": -0.86324,
+        "gyroY": 0.83163,
+        "gyroZ": 1.75863,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:30:32"
+      },
+      "342248": {
+        "accelX": 0.22085,
+        "accelY": -0.13819,
+        "accelZ": 0.74988,
+        "gyroX": -1.12278,
+        "gyroY": 0.12934,
+        "gyroZ": 0.65939,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:30:34"
+      },
+      "344250": {
+        "accelX": 0.2206,
+        "accelY": -0.13648,
+        "accelZ": 0.74377,
+        "gyroX": -1.94721,
+        "gyroY": 0.37362,
+        "gyroZ": 2.04871,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:30:36"
+      },
+      "346252": {
+        "accelX": 0.20962,
+        "accelY": -0.13526,
+        "accelZ": 0.77405,
+        "gyroX": 2.48028,
+        "gyroY": -6.93936,
+        "gyroZ": 3.42275,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:30:38"
+      },
+      "348254": {
+        "accelX": 0.21303,
+        "accelY": -0.13746,
+        "accelZ": 0.77527,
+        "gyroX": 1.80852,
+        "gyroY": -0.14547,
+        "gyroZ": 2.58306,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:30:40"
+      },
+      "350261": {
+        "accelX": 0.21621,
+        "accelY": -0.13722,
+        "accelZ": 0.76501,
+        "gyroX": -1.8556,
+        "gyroY": 1.88507,
+        "gyroZ": -0.1803,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:30:42"
+      },
+      "352266": {
+        "accelX": 0.22793,
+        "accelY": -0.1399,
+        "accelZ": 0.73498,
+        "gyroX": 1.56425,
+        "gyroY": -7.30577,
+        "gyroZ": 2.38458,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:30:44"
+      },
+      "354273": {
+        "accelX": 0.22646,
+        "accelY": -0.13941,
+        "accelZ": 0.7384,
+        "gyroX": -0.05408,
+        "gyroY": 2.43469,
+        "gyroZ": 3.42275,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:30:46"
+      },
+      "356279": {
+        "accelX": 0.2206,
+        "accelY": -0.14234,
+        "accelZ": 0.82458,
+        "gyroX": -0.58843,
+        "gyroY": -1.79432,
+        "gyroZ": -0.50091,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:30:48"
+      },
+      "358283": {
+        "accelX": 0.2062,
+        "accelY": -0.14307,
+        "accelZ": 0.83899,
+        "gyroX": -0.08461,
+        "gyroY": 0.64843,
+        "gyroZ": 2.61359,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:30:50"
+      },
+      "360290": {
+        "accelX": 0.20131,
+        "accelY": -0.14137,
+        "accelZ": 0.83996,
+        "gyroX": 0.86196,
+        "gyroY": 0.66369,
+        "gyroZ": 3.69756,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:30:52"
+      },
+      "362295": {
+        "accelX": 0.1957,
+        "accelY": -0.1338,
+        "accelZ": 0.8302,
+        "gyroX": -0.54262,
+        "gyroY": 0.77056,
+        "gyroZ": 1.78916,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:30:54"
+      },
+      "364298": {
+        "accelX": 0.19741,
+        "accelY": -0.14137,
+        "accelZ": 0.83142,
+        "gyroX": -0.43575,
+        "gyroY": 0.64843,
+        "gyroZ": 1.45329,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:30:56"
+      },
+      "366305": {
+        "accelX": 0.20669,
+        "accelY": -0.14649,
+        "accelZ": 0.83508,
+        "gyroX": 0.26654,
+        "gyroY": 0.12934,
+        "gyroZ": 2.8426,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:30:58"
+      },
+      "368307": {
+        "accelX": 0.19985,
+        "accelY": -0.14015,
+        "accelZ": 0.83533,
+        "gyroX": 0.20547,
+        "gyroY": 0.32782,
+        "gyroZ": 2.30825,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:31:00"
+      },
+      "370309": {
+        "accelX": 0.20205,
+        "accelY": -0.1421,
+        "accelZ": 0.83337,
+        "gyroX": 0.86196,
+        "gyroY": 0.06827,
+        "gyroZ": 2.751,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:31:02"
+      },
+      "372314": {
+        "accelX": 0.20595,
+        "accelY": -0.14063,
+        "accelZ": 0.83899,
+        "gyroX": -0.60369,
+        "gyroY": 0.57209,
+        "gyroZ": 1.27008,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:31:04"
+      },
+      "374314": {
+        "accelX": 0.2018,
+        "accelY": -0.14625,
+        "accelZ": 0.83386,
+        "gyroX": -0.66476,
+        "gyroY": 0.61789,
+        "gyroZ": 1.49909,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:31:06"
+      },
+      "376319": {
+        "accelX": 0.19936,
+        "accelY": -0.13941,
+        "accelZ": 0.83044,
+        "gyroX": -0.7411,
+        "gyroY": 0.49576,
+        "gyroZ": 1.30061,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:31:08"
+      },
+      "378321": {
+        "accelX": 0.2062,
+        "accelY": -0.146,
+        "accelZ": 0.83899,
+        "gyroX": -0.66476,
+        "gyroY": 0.7095,
+        "gyroZ": 1.23954,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:31:10"
+      },
+      "380324": {
+        "accelX": 0.20107,
+        "accelY": -0.146,
+        "accelZ": 0.82849,
+        "gyroX": -0.46629,
+        "gyroY": 0.41942,
+        "gyroZ": 1.60596,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:31:12"
+      },
+      "382333": {
+        "accelX": 0.20888,
+        "accelY": -0.14234,
+        "accelZ": 0.82898,
+        "gyroX": -0.71056,
+        "gyroY": 0.31255,
+        "gyroZ": 1.43802,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:31:14"
+      },
+      "384338": {
+        "accelX": 0.20644,
+        "accelY": -0.14503,
+        "accelZ": 0.83166,
+        "gyroX": -0.54262,
+        "gyroY": 0.57209,
+        "gyroZ": 1.56016,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:31:16"
+      },
+      "386341": {
+        "accelX": 0.20376,
+        "accelY": -0.1443,
+        "accelZ": 0.83484,
+        "gyroX": -0.31362,
+        "gyroY": 0.44995,
+        "gyroZ": 1.78916,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:31:18"
+      },
+      "388347": {
+        "accelX": 0.20205,
+        "accelY": -0.1399,
+        "accelZ": 0.8324,
+        "gyroX": -1.30598,
+        "gyroY": 0.8011,
+        "gyroZ": 0.46092,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:31:20"
+      },
+      "390353": {
+        "accelX": 0.20083,
+        "accelY": -0.13917,
+        "accelZ": 0.83752,
+        "gyroX": 0.60241,
+        "gyroY": 0.35835,
+        "gyroZ": 3.17848,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:31:22"
+      },
+      "392359": {
+        "accelX": 0.19814,
+        "accelY": -0.1399,
+        "accelZ": 0.83166,
+        "gyroX": 0.49554,
+        "gyroY": 0.29728,
+        "gyroZ": 3.08687,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:31:24"
+      },
+      "394361": {
+        "accelX": 0.19961,
+        "accelY": -0.14259,
+        "accelZ": 0.82898,
+        "gyroX": -1.64186,
+        "gyroY": 0.7095,
+        "gyroZ": 0.06397,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:31:26"
+      },
+      "396369": {
+        "accelX": 0.19643,
+        "accelY": -0.14381,
+        "accelZ": 0.82898,
+        "gyroX": -0.54262,
+        "gyroY": 0.46522,
+        "gyroZ": 1.59069,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:31:28"
+      },
+      "398377": {
+        "accelX": 0.20351,
+        "accelY": -0.14015,
+        "accelZ": 0.83606,
+        "gyroX": -0.52736,
+        "gyroY": 0.43469,
+        "gyroZ": 1.37695,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:31:30"
+      },
+      "400379": {
+        "accelX": 0.20547,
+        "accelY": -0.1399,
+        "accelZ": 0.83044,
+        "gyroX": -0.61896,
+        "gyroY": 0.35835,
+        "gyroZ": 1.59069,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:31:32"
+      },
+      "402380": {
+        "accelX": 0.20449,
+        "accelY": -0.14478,
+        "accelZ": 0.82727,
+        "gyroX": -0.57316,
+        "gyroY": 0.44995,
+        "gyroZ": 1.37695,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:31:34"
+      },
+      "404385": {
+        "accelX": 0.20571,
+        "accelY": -0.14332,
+        "accelZ": 0.82751,
+        "gyroX": 0.00699,
+        "gyroY": 0.43469,
+        "gyroZ": 2.52199,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:31:36"
+      },
+      "406390": {
+        "accelX": 0.20254,
+        "accelY": -0.13722,
+        "accelZ": 0.83313,
+        "gyroX": -0.49682,
+        "gyroY": 0.58736,
+        "gyroZ": 1.54489,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:31:38"
+      },
+      "408391": {
+        "accelX": 0.20522,
+        "accelY": -0.14454,
+        "accelZ": 0.83337,
+        "gyroX": -0.42049,
+        "gyroY": 0.48049,
+        "gyroZ": 1.43802,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:31:40"
+      },
+      "410398": {
+        "accelX": 0.20595,
+        "accelY": -0.14796,
+        "accelZ": 0.828,
+        "gyroX": -0.40522,
+        "gyroY": 0.34308,
+        "gyroZ": 1.46855,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:31:42"
+      },
+      "412407": {
+        "accelX": 0.20278,
+        "accelY": -0.14161,
+        "accelZ": 0.82849,
+        "gyroX": -0.40522,
+        "gyroY": 0.58736,
+        "gyroZ": 1.36168,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:31:44"
+      },
+      "414414": {
+        "accelX": 0.20669,
+        "accelY": -0.14381,
+        "accelZ": 0.828,
+        "gyroX": -0.43575,
+        "gyroY": 0.54156,
+        "gyroZ": 1.48382,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:31:46"
+      },
+      "416419": {
+        "accelX": 0.21377,
+        "accelY": -0.1504,
+        "accelZ": 0.82702,
+        "gyroX": 0.55661,
+        "gyroY": 0.17515,
+        "gyroZ": 3.11741,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:31:48"
+      },
+      "418425": {
+        "accelX": 0.21132,
+        "accelY": -0.14307,
+        "accelZ": 0.82995,
+        "gyroX": -0.43575,
+        "gyroY": 0.43469,
+        "gyroZ": 1.48382,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:31:50"
+      },
+      "420434": {
+        "accelX": 0.20302,
+        "accelY": -0.13966,
+        "accelZ": 0.82239,
+        "gyroX": -0.72583,
+        "gyroY": 0.61789,
+        "gyroZ": 1.19374,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:31:52"
+      },
+      "422439": {
+        "accelX": 0.20717,
+        "accelY": -0.14307,
+        "accelZ": 0.82776,
+        "gyroX": -0.58843,
+        "gyroY": 0.81637,
+        "gyroZ": 1.83496,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:31:54"
+      },
+      "424448": {
+        "accelX": 0.20254,
+        "accelY": -0.14552,
+        "accelZ": 0.82751,
+        "gyroX": -0.86324,
+        "gyroY": 0.51102,
+        "gyroZ": 1.0258,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:31:56"
+      }
+    },
+    "RainReadings": {
+      "7011": {
+        "analog": 193,
+        "digital": 1,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:24:59"
+      },
+      "11017": {
+        "analog": 458,
+        "digital": 1,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:25:03"
+      },
+      "15017": {
+        "analog": 846,
+        "digital": 1,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:25:07"
+      },
+      "19019": {
+        "analog": 169,
+        "digital": 1,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:25:11"
+      },
+      "23023": {
+        "analog": 477,
+        "digital": 0,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:25:15"
+      },
+      "27023": {
+        "analog": 623,
+        "digital": 0,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:25:19"
+      },
+      "31029": {
+        "analog": 197,
+        "digital": 0,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:25:23"
+      },
+      "35029": {
+        "analog": 907,
+        "digital": 1,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:25:27"
+      },
+      "39031": {
+        "analog": 176,
+        "digital": 0,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:25:31"
+      },
+      "43040": {
+        "analog": 179,
+        "digital": 0,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:25:35"
+      },
+      "47048": {
+        "analog": 1116,
+        "digital": 0,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:25:39"
+      },
+      "51051": {
+        "analog": 1680,
+        "digital": 0,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:25:43"
+      },
+      "55055": {
+        "analog": 711,
+        "digital": 0,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:25:47"
+      },
+      "59056": {
+        "analog": 387,
+        "digital": 0,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:25:51"
+      },
+      "63065": {
+        "analog": 526,
+        "digital": 0,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:25:55"
+      },
+      "67074": {
+        "analog": 349,
+        "digital": 0,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:25:59"
+      },
+      "71075": {
+        "analog": 1191,
+        "digital": 0,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:26:03"
+      },
+      "75081": {
+        "analog": 592,
+        "digital": 1,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:26:07"
+      },
+      "79088": {
+        "analog": 171,
+        "digital": 1,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:26:11"
+      },
+      "83097": {
+        "analog": 1132,
+        "digital": 0,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:26:15"
+      },
+      "87106": {
+        "analog": 299,
+        "digital": 0,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:26:19"
+      },
+      "91106": {
+        "analog": 642,
+        "digital": 0,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:26:23"
+      },
+      "95108": {
+        "analog": 164,
+        "digital": 0,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:26:27"
+      },
+      "99116": {
+        "analog": 1001,
+        "digital": 0,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:26:31"
+      },
+      "103122": {
+        "analog": 1130,
+        "digital": 0,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:26:35"
+      },
+      "107123": {
+        "analog": 432,
+        "digital": 1,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:26:39"
+      },
+      "111125": {
+        "analog": 307,
+        "digital": 1,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:26:43"
+      },
+      "115127": {
+        "analog": 1725,
+        "digital": 1,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:26:47"
+      },
+      "119136": {
+        "analog": 1439,
+        "digital": 1,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:26:51"
+      },
+      "123140": {
+        "analog": 162,
+        "digital": 0,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:26:55"
+      },
+      "127145": {
+        "analog": 867,
+        "digital": 0,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:26:59"
+      },
+      "131147": {
+        "analog": 894,
+        "digital": 0,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:27:03"
+      },
+      "135153": {
+        "analog": 854,
+        "digital": 0,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:27:07"
+      },
+      "135158": {
+        "analog": 874,
+        "digital": 1,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:33:07"
+      },
+            "135159": {
+        "analog": 1600,
+        "digital": 0,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:37:07"
+      }
+    },
+    "SoilMoistureReadings": {
+      "7011": {
+        "analog": 4095,
+        "digital": 1,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:24:59"
+      },
+      "11017": {
+        "analog": 4095,
+        "digital": 1,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:25:03"
+      },
+      "15017": {
+        "analog": 4095,
+        "digital": 1,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:25:07"
+      },
+      "19019": {
+        "analog": 4095,
+        "digital": 1,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:25:11"
+      },
+      "23023": {
+        "analog": 4095,
+        "digital": 1,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:25:15"
+      },
+      "27023": {
+        "analog": 4095,
+        "digital": 1,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:25:19"
+      },
+      "31029": {
+        "analog": 4095,
+        "digital": 1,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:25:23"
+      },
+      "35029": {
+        "analog": 4095,
+        "digital": 1,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:25:27"
+      },
+      "39031": {
+        "analog": 4095,
+        "digital": 1,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:25:31"
+      },
+      "43040": {
+        "analog": 4095,
+        "digital": 1,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:25:35"
+      },
+      "47048": {
+        "analog": 4095,
+        "digital": 1,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:25:39"
+      },
+      "51051": {
+        "analog": 4095,
+        "digital": 1,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:25:43"
+      },
+      "55055": {
+        "analog": 4095,
+        "digital": 1,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:25:47"
+      },
+      "59056": {
+        "analog": 4095,
+        "digital": 1,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:25:51"
+      },
+      "63065": {
+        "analog": 4095,
+        "digital": 1,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:25:55"
+      },
+      "67074": {
+        "analog": 4095,
+        "digital": 1,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:25:59"
+      },
+      "71075": {
+        "analog": 4095,
+        "digital": 1,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:26:03"
+      },
+      "75081": {
+        "analog": 4095,
+        "digital": 1,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:26:07"
+      },
+      "79088": {
+        "analog": 4095,
+        "digital": 1,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:26:11"
+      },
+      "83097": {
+        "analog": 4095,
+        "digital": 1,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:26:15"
+      },
+      "87106": {
+        "analog": 4095,
+        "digital": 1,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:26:19"
+      },
+      "91106": {
+        "analog": 4095,
+        "digital": 1,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:26:23"
+      },
+      "95108": {
+        "analog": 4095,
+        "digital": 1,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:26:27"
+      },
+      "99116": {
+        "analog": 4095,
+        "digital": 1,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:26:31"
+      },
+      "103122": {
+        "analog": 4095,
+        "digital": 1,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:26:35"
+      },
+      "107123": {
+        "analog": 4095,
+        "digital": 1,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:26:39"
+      },
+      "111125": {
+        "analog": 4095,
+        "digital": 1,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:26:43"
+      },
+      "115127": {
+        "analog": 4095,
+        "digital": 1,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:26:47"
+      },
+      "119136": {
+        "analog": 4095,
+        "digital": 1,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:26:51"
+      },
+      "123140": {
+        "analog": 4095,
+        "digital": 1,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:26:55"
+      },
+      "127145": {
+        "analog": 4095,
+        "digital": 1,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:26:59"
+      },
+      "131147": {
+        "analog": 4095,
+        "digital": 1,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:27:03"
+      },
+      "135153": {
+        "analog": 4095,
+        "digital": 1,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:27:07"
+      },
+      "139161": {
+        "analog": 4095,
+        "digital": 1,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:27:11"
+      },
+      "143165": {
+        "analog": 4095,
+        "digital": 1,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:27:15"
+      },
+      "147170": {
+        "analog": 4095,
+        "digital": 1,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:27:19"
+      },
+      "151174": {
+        "analog": 4095,
+        "digital": 1,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:27:23"
+      },
+      "155181": {
+        "analog": 4095,
+        "digital": 1,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:27:27"
+      },
+      "159189": {
+        "analog": 4095,
+        "digital": 1,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:27:31"
+      },
+      "163191": {
+        "analog": 4095,
+        "digital": 1,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:27:35"
+      },
+      "167199": {
+        "analog": 4095,
+        "digital": 1,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:27:39"
+      },
+      "171205": {
+        "analog": 4095,
+        "digital": 1,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:27:43"
+      },
+      "175213": {
+        "analog": 4095,
+        "digital": 1,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:27:47"
+      },
+      "179222": {
+        "analog": 4095,
+        "digital": 1,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:27:51"
+      },
+      "183229": {
+        "analog": 4095,
+        "digital": 1,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:27:55"
+      },
+      "187237": {
+        "analog": 4095,
+        "digital": 1,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:27:59"
+      },
+      "191239": {
+        "analog": 4095,
+        "digital": 1,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:28:03"
+      },
+      "195240": {
+        "analog": 4095,
+        "digital": 1,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:28:07"
+      },
+      "199248": {
+        "analog": 4095,
+        "digital": 1,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:28:11"
+      },
+      "203250": {
+        "analog": 4095,
+        "digital": 1,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:28:15"
+      },
+      "207252": {
+        "analog": 4095,
+        "digital": 1,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:28:19"
+      },
+      "211257": {
+        "analog": 4095,
+        "digital": 1,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:28:23"
+      },
+      "215257": {
+        "analog": 4095,
+        "digital": 1,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:28:27"
+      },
+      "219263": {
+        "analog": 4095,
+        "digital": 1,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:28:31"
+      },
+      "223268": {
+        "analog": 4095,
+        "digital": 1,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:28:35"
+      },
+      "227277": {
+        "analog": 4095,
+        "digital": 1,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:28:39"
+      },
+      "231285": {
+        "analog": 4095,
+        "digital": 1,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:28:43"
+      },
+      "235286": {
+        "analog": 4095,
+        "digital": 1,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:28:47"
+      },
+      "239292": {
+        "analog": 3499,
+        "digital": 1,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:28:51"
+      },
+      "243296": {
+        "analog": 4095,
+        "digital": 1,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:28:55"
+      },
+      "247305": {
+        "analog": 4095,
+        "digital": 1,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:28:59"
+      },
+      "251313": {
+        "analog": 4095,
+        "digital": 1,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:29:03"
+      },
+      "255314": {
+        "analog": 4095,
+        "digital": 1,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:29:07"
+      },
+      "259314": {
+        "analog": 4095,
+        "digital": 1,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:29:11"
+      },
+      "263320": {
+        "analog": 4095,
+        "digital": 1,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:29:15"
+      },
+      "267329": {
+        "analog": 4095,
+        "digital": 1,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:29:19"
+      },
+      "271330": {
+        "analog": 4095,
+        "digital": 1,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:29:23"
+      },
+      "275338": {
+        "analog": 4095,
+        "digital": 1,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:29:27"
+      },
+      "279346": {
+        "analog": 4095,
+        "digital": 1,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:29:31"
+      },
+      "283350": {
+        "analog": 4095,
+        "digital": 1,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:29:35"
+      },
+      "287357": {
+        "analog": 4095,
+        "digital": 1,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:29:39"
+      },
+      "291365": {
+        "analog": 4095,
+        "digital": 1,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:29:43"
+      },
+      "295367": {
+        "analog": 4095,
+        "digital": 1,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:29:47"
+      },
+      "299374": {
+        "analog": 4095,
+        "digital": 1,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:29:51"
+      },
+      "303379": {
+        "analog": 4095,
+        "digital": 1,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:29:55"
+      },
+      "307388": {
+        "analog": 4095,
+        "digital": 1,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:29:59"
+      },
+      "311391": {
+        "analog": 4095,
+        "digital": 1,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:30:03"
+      },
+      "315399": {
+        "analog": 4095,
+        "digital": 1,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:30:07"
+      },
+      "319401": {
+        "analog": 4095,
+        "digital": 1,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:30:11"
+      },
+      "323407": {
+        "analog": 4095,
+        "digital": 1,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:30:15"
+      },
+      "327413": {
+        "analog": 4095,
+        "digital": 1,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:30:19"
+      },
+      "331413": {
+        "analog": 4095,
+        "digital": 1,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:30:23"
+      },
+      "335418": {
+        "analog": 4095,
+        "digital": 1,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:30:27"
+      },
+      "339426": {
+        "analog": 4095,
+        "digital": 1,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:30:31"
+      },
+      "343426": {
+        "analog": 4095,
+        "digital": 1,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:30:35"
+      },
+      "347427": {
+        "analog": 4095,
+        "digital": 1,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:30:39"
+      },
+      "351428": {
+        "analog": 4095,
+        "digital": 1,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:30:43"
+      },
+      "355436": {
+        "analog": 4095,
+        "digital": 1,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:30:47"
+      },
+      "359437": {
+        "analog": 4095,
+        "digital": 1,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:30:51"
+      },
+      "363440": {
+        "analog": 4095,
+        "digital": 1,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:30:55"
+      },
+      "367447": {
+        "analog": 4095,
+        "digital": 1,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:30:59"
+      },
+      "371450": {
+        "analog": 4095,
+        "digital": 1,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:31:03"
+      },
+      "375459": {
+        "analog": 4095,
+        "digital": 1,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:31:07"
+      },
+      "379463": {
+        "analog": 4095,
+        "digital": 1,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:31:11"
+      },
+      "383466": {
+        "analog": 4095,
+        "digital": 1,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:31:15"
+      },
+      "387471": {
+        "analog": 4095,
+        "digital": 1,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:31:19"
+      },
+      "391477": {
+        "analog": 4095,
+        "digital": 1,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:31:23"
+      },
+      "395481": {
+        "analog": 4095,
+        "digital": 1,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:31:27"
+      },
+      "399490": {
+        "analog": 4095,
+        "digital": 1,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:31:31"
+      },
+      "403496": {
+        "analog": 4095,
+        "digital": 1,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:31:35"
+      },
+      "407502": {
+        "analog": 4095,
+        "digital": 1,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:31:39"
+      },
+      "411504": {
+        "analog": 4095,
+        "digital": 1,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:31:43"
+      },
+      "415510": {
+        "analog": 4095,
+        "digital": 1,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:31:47"
+      },
+      "419515": {
+        "analog": 4095,
+        "digital": 1,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:31:51"
+      },
+      "423519": {
+        "analog": 4095,
+        "digital": 1,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:31:55"
+      },
+      "423520": {
+        "analog": 405,
+        "digital": 1,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:38:55"
+      },
+      "423570": {
+        "analog": 980,
+        "digital": 0,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:58:55"
+      },
+            "423571": {
+        "analog": 3000,
+        "digital": 0,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:59:55"
+      },
+                  "423572": {
+        "analog": 4095,
+        "digital": 0,
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:59:58"
+      }
+    },
+    "TiltReadings": {
+      "7011": {
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:24:59",
+        "value": 1
+      },
+      "12011": {
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:25:04",
+        "value": 1
+      },
+      "17020": {
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:25:09",
+        "value": 1
+      },
+      "22025": {
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:25:14",
+        "value": 1
+      },
+      "22027": {
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:25:14",
+        "value": 0
+      },
+            "22029": {
+        "location": "Rathnapura",
+        "timestamp": "2025-08-14 12:55:14",
+        "value": 0
+      }
+    },
+    "waterLevelSensor": {
+      "levelData": {
+        "001": {
+          "WaterLevelPercentage": 45.5,
+          "location": "Gampaha",
+          "time": "2025-08-14 09:00:00"
+        },
+        "002": {
+          "WaterLevelPercentage": 62.3,
+          "location": "Gampaha",
+          "time": "2025-08-14 09:05:00"
+        },
+        "003": {
+          "WaterLevelPercentage": 80,
+          "location": "Gampaha",
+          "time": "2025-08-14 09:10:00"
+        },
+        "004": {
+          "WaterLevelPercentage": 80,
+          "location": "Gampaha",
+          "time": "2025-08-14 09:50:00"
+        },
+        "005": {
+          "WaterLevelPercentage": 10,
+          "location": "Gampaha",
+          "time": "2025-08-14 09:59:00"
+        },
+          "006": {
+          "WaterLevelPercentage": 90,
+          "location": "Gampaha",
+          "time": "2025-08-14 09:59:00"
+        },
+          "007": {
+          "WaterLevelPercentage": 5,
+          "location": "Gampaha",
+          "time": "2025-08-14 09:59:00"
+        },
+                  "008": {
+          "WaterLevelPercentage": 100,
+          "location": "Gampaha",
+          "time": "2025-08-14 10:59:00"
+        }
+      }
+    }
+  }
+}
