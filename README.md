@@ -1,12 +1,16 @@
 # IoT-Based Disaster Management System
 ## Demo link
 https://youtu.be/wpo7wRXVGQk
+## Project report
+[Report.pdf](https://github.com/user-attachments/files/22184772/Report.pdf)
+
 ## Images
 ![WhatsApp Image 2025-09-03 at 11 00 07_b564d54b](https://github.com/user-attachments/assets/4f889aa8-0587-4661-9dd4-7ff2da583a16)
 ![WhatsApp Image 2025-09-03 at 11 00 40_8998d7c4](https://github.com/user-attachments/assets/053450a2-d18f-4765-8d3f-14479243ddce)
 ![WhatsApp Image 2025-09-03 at 11 01 32_c692e251](https://github.com/user-attachments/assets/bd4718f3-8368-4901-af67-7f1b119643c4)
 ![WhatsApp Image 2025-09-03 at 11 01 52_b5bd0cb1](https://github.com/user-attachments/assets/04d6d67f-7834-4d48-ba03-baebae8f81be)
 <img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/74909ef1-988d-44d7-b8b5-c734a883baa5" />
+
 ## Project Overview
 This project, developed as part of the Higher National Diploma in Software Engineering at the National Institute of Business Management, focuses on creating an IoT-based disaster management system for detecting floods and landslides in Sri Lanka. The system integrates IoT sensors, a backend server, and a mobile application to provide real-time alerts to vulnerable communities, addressing the gaps in timely disaster communication.
 
