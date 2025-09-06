@@ -1,5 +1,5 @@
 # IoT-Based Disaster Management System
-## Demo link
+## Demo link (Youtube)
 https://youtu.be/wpo7wRXVGQk
 ## Project report
 [Report.pdf](https://github.com/user-attachments/files/22184772/Report.pdf)
