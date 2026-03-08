@@ -10,16 +10,18 @@
     <color name="red_500">#FFF44336</color>
     <color name="gray_200">#FFEEEEEE</color>
     <color name="gray_600">#FF757575</color>
+    <color name="purple_200">#FFBB86FC</color>
     <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
     <color name="gray">#FF9E9E9E</color>
     <color name="danger_high">#FF5252</color>
     <color name="safe">#4CAF50</color>
 
-    <color name="surfaceContainer">#FFF2F6FF</color>
     <color name="error_color">#FF0000</color>
     <color name="outline_color">#FF0000</color>
-    <!-- res/values/colors.xml -->
-    <color name="dark_background">#121212</color>
+
     <color name="dark_text_color">#FFFFFF</color>
 
 
@@ -36,5 +38,12 @@
 
     <!-- Circle background -->
     <color name="circle_bg_accent">#E3F2FD</color>
+
+
+    <!-- Theme Colers-->
+    <color name="dark_surface">#1E1E1E</color>
+    <color name="dark_background">#121212</color>
+    <color name="surfaceContainer">#F8F9FA</color>
+
 
 </resources>

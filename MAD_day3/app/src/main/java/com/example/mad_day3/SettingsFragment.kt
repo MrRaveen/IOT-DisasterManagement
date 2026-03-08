@@ -26,6 +26,8 @@ class SettingsFragment : Fragment() {
     private val binding get() = _binding!!
     private val db = Firebase.firestore
     private lateinit var sharedPref: SharedPreferences
+    private var isThemeChanging = false
+
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -47,6 +49,7 @@ class SettingsFragment : Fragment() {
             return
         }
 
+
         loadUserData(userId)
         setupClickListeners(userId)
     }
@@ -65,19 +68,39 @@ class SettingsFragment : Fragment() {
                     val notifPrefs = document.get("notificationPrefs") as? Map<String, Boolean>
                     binding.switchLandslide.isChecked = notifPrefs?.get("landslideAlerts") ?: true
                     binding.switchFlood.isChecked = notifPrefs?.get("floodAlerts") ?: true
-                    binding.switchEarthquake.isChecked = notifPrefs?.get("earthquakeAlerts") ?: false
 
+
+
+                    binding.radioGroup.setOnCheckedChangeListener(null)
                     // Theme Preference
                     when (document.getString("themePref")) {
                         "dark" -> binding.radioDark.isChecked = true
                         "system" -> binding.radioSystem.isChecked = true
                         else -> binding.radioLight.isChecked = true
                     }
+                    // Restore listener after setting initial state
+                    setupThemeListener(userId)
+
                 }
             }
             .addOnFailureListener { e ->
                 showError("Failed to load settings: ${e.message}")
             }
+    }
+    private fun setupThemeListener(userId: String) {
+        binding.radioGroup.setOnCheckedChangeListener { _, checkedId ->
+            if (isThemeChanging) return@setOnCheckedChangeListener
+
+            isThemeChanging = true
+            val theme = when (checkedId) {
+                R.id.radio_dark -> "dark"
+                R.id.radio_system -> "system"
+                else -> "light"
+            }
+
+                updateThemePref(userId, theme)
+
+        }
     }
 
     private fun setupClickListeners(userId: String) {
@@ -92,9 +115,6 @@ class SettingsFragment : Fragment() {
         binding.switchFlood.setOnCheckedChangeListener { _, isChecked ->
             updateNotificationPref(userId, "floodAlerts", isChecked)
         }
-        binding.switchEarthquake.setOnCheckedChangeListener { _, isChecked ->
-            updateNotificationPref(userId, "earthquakeAlerts", isChecked)
-        }
         binding.btnHelpSupport.setOnClickListener {
             showHelpSupportDialog()
         }
@@ -103,15 +123,6 @@ class SettingsFragment : Fragment() {
             showAboutDialog()
         }
 
-        // Theme Selection
-        binding.radioGroup.setOnCheckedChangeListener { _, checkedId ->
-            val theme = when (checkedId) {
-                R.id.radio_dark -> "dark"
-                R.id.radio_system -> "system"
-                else -> "light"
-            }
-            updateThemePref(userId, theme)
-        }
 
         // Account Actions
         binding.btnLogout.setOnClickListener {
@@ -251,19 +262,70 @@ class SettingsFragment : Fragment() {
     }
 
     private fun updateThemePref(userId: String, theme: String) {
-        // Apply immediately
-        when (theme) {
-            "dark" -> AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES)
-            "light" -> AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
-            else -> AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_FOLLOW_SYSTEM)
-        }
 
+
+        isThemeChanging = true
         // Save to Firestore
         db.collection("userAccounts").document(userId)
             .update("themePref", theme)
+            .addOnSuccessListener {
+                // Save theme locally
+                ThemeUtils.saveTheme(requireContext(), theme)
+
+                showSuccess("Theme changed to ${theme.replaceFirstChar { it.uppercase() }}")
+
+                // Apply theme without immediate activity recreation
+                applyThemeSafely(theme)
+            }
             .addOnFailureListener { e ->
                 Log.e("Settings", "Failed to save theme", e)
+                showError("Failed to save theme preference")
+                revertThemeSelection()
             }
+            .addOnCompleteListener {
+                isThemeChanging = false
+            }
+    }
+
+    private fun applyThemeSafely(theme: String) {
+        // Apply the theme for future activities
+        ThemeUtils.applyTheme(theme)
+
+        // Use a delayed approach to restart the activity safely
+        binding.root.postDelayed({
+            if (isAdded && !requireActivity().isFinishing) {
+                restartActivitySafely()
+            }
+        }, 1000) // 1 second delay to allow UI to settle
+    }
+
+    private fun restartActivitySafely() {
+        try {
+            val intent = Intent(requireContext(), MainActivity::class.java)
+            intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP or Intent.FLAG_ACTIVITY_NEW_TASK)
+            startActivity(intent)
+            requireActivity().finish()
+        } catch (e: Exception) {
+            Log.e("Settings", "Failed to restart activity", e)
+            // If restart fails, just continue - theme will apply on next app launch
+        }
+    }
+
+    private fun revertThemeSelection() {
+        // Get current theme from shared preferences and revert UI
+        val currentTheme = sharedPref.getString("themePref", "light") ?: "light"
+        binding.radioGroup.setOnCheckedChangeListener(null)
+
+        when (currentTheme) {
+            "dark" -> binding.radioDark.isChecked = true
+            "system" -> binding.radioSystem.isChecked = true
+            else -> binding.radioLight.isChecked = true
+        }
+        // Restore listener
+        val userId = sharedPref.getString("userID", "") ?: ""
+        if (userId.isNotEmpty()) {
+            setupThemeListener(userId)
+        }
     }
 
 

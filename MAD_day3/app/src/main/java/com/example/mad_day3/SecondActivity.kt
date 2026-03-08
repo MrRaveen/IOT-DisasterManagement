@@ -18,10 +18,14 @@ import com.example.mad_day3.databinding.ActivityMainBinding
 import com.example.mad_day3.databinding.ActivitySecondBinding
 
 class SecondActivity : AppCompatActivity() {
+    private lateinit var sharedPref: SharedPreferences
     private lateinit var binding: ActivitySecondBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
+
+        // Apply theme BEFORE setContentView
+        applyStoredTheme()
 
 //        val PREF_NAME = "prefs"
 //        val KEY_NAME = "city"
@@ -54,4 +58,15 @@ class SecondActivity : AppCompatActivity() {
         fragmentTransaction.commit()
     }
 
+    private fun applyStoredTheme() {
+        sharedPref = getSharedPreferences("prefs", Context.MODE_PRIVATE)
+        val themePref = sharedPref.getString("themePref", "light") ?: "light"
+        ThemeUtils.applyTheme(themePref)
+    }
+
+    override fun onResume() {
+        super.onResume()
+        // Re-apply theme in case it was changed while activity was in background
+        applyStoredTheme()
+    }
 }

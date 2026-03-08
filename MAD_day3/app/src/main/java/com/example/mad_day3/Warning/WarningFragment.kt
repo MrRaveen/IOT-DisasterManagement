@@ -1,11 +1,13 @@
 package com.example.mad_day3.Warning
 
+import android.app.Dialog
 import com.example.mad_day3.Warning.WarningAdapter
 import android.os.Bundle
 import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.LinearLayout
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.mad_day3.databinding.FragmentWarningBinding
@@ -26,6 +28,9 @@ class WarningFragment : Fragment() {
     private var currentFilter: String? = null
     private val firestore = FirebaseFirestore.getInstance()
     private val locationCategories = mutableMapOf<String, String>() // Map of location to category
+    private var loadingDialog: Dialog? = null
+    private var completedRequests = 0
+    private var totalRequests = 0
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -54,14 +59,15 @@ class WarningFragment : Fragment() {
         }
 
         // First load location categories from Firestore
+        showLoadingDialog()
         loadLocationCategories {
-            // Then fetch all sensor data
             fetchAllSensorWarnings()
         }
 
         fetchLandslideWarnings()
         checkFirebaseConnection()
     }
+
 
     private fun checkFirebaseConnection() {
         val connectedRef = Firebase.database.getReference(".info/connected")
@@ -77,6 +83,22 @@ class WarningFragment : Fragment() {
         })
     }
 
+
+    private fun showLoadingDialog() {
+        loadingDialog = Dialog(requireContext())
+        loadingDialog?.setContentView(R.layout.custom_dialog)
+        loadingDialog?.window?.setLayout(
+            LinearLayout.LayoutParams.WRAP_CONTENT,
+            LinearLayout.LayoutParams.WRAP_CONTENT
+        )
+        loadingDialog?.setCancelable(false)
+        loadingDialog?.show()
+    }
+
+    private fun hideLoadingDialog() {
+        loadingDialog?.dismiss()
+        loadingDialog = null
+    }
     private fun loadLocationCategories(onComplete: () -> Unit) {
         firestore.collection("locationInfo")
             .get()
@@ -92,6 +114,24 @@ class WarningFragment : Fragment() {
                 Log.w("WarningFragment", "Error getting location categories", exception)
                 onComplete()
             }
+    }
+    private fun fetchAllSensorWarningsWithTimeout() {
+        showLoadingDialog()
+
+        // Set a timeout to hide the loading dialog
+        binding.root.postDelayed({
+            if (loadingDialog?.isShowing == true) {
+                hideLoadingDialog()
+                showError("Loading timed out. Please check your connection.")
+            }
+        }, 15000) // 15 seconds timeout
+
+        fetchAllSensorWarnings()
+    }
+
+    private fun showError(message: String) {
+        // You can use a Snackbar or Toast to show the error
+        android.widget.Toast.makeText(requireContext(), message, android.widget.Toast.LENGTH_LONG).show()
     }
 
     private fun fetchAllSensorWarnings() {
@@ -128,18 +168,35 @@ class WarningFragment : Fragment() {
                                 Log.e("PROCESS_ERROR", "Error processing ${handler.sensorType}", e)
                                 null
                             }
+
                         }
 
                         Log.d("FIREBASE_DEBUG", "Processed ${warnings.size} warnings from ${handler.sensorType}")
                         adapter.addWarnings(warnings)
+                        filterWarnings()
+                        completedRequests++
+                        // Hide loading dialog when all requests are completed
+                        if (completedRequests >= totalRequests) {
+                            hideLoadingDialog()
+                        }
+
                     }
 
                     override fun onCancelled(error: DatabaseError) {
                         Log.e("FIREBASE_ERROR", "Error reading ${handler.sensorType}: ${error.message}")
+                        completedRequests++
+                        // Hide loading dialog even if there's an error
+                        if (completedRequests >= totalRequests) {
+                            hideLoadingDialog()
+                        }
                     }
                 }
             )
         }
+        // Also set a timeout to hide the dialog in case of no response
+        binding.root.postDelayed({
+            hideLoadingDialog()
+        }, 10000) // 10 seconds timeout
     }
     private fun processLandslideWarnings(data: DataSnapshot): WarningFragment.Warning? {
         return try {
@@ -321,6 +378,7 @@ class WarningFragment : Fragment() {
 
     override fun onDestroyView() {
         super.onDestroyView()
+        hideLoadingDialog()
         _binding = null
     }
 }

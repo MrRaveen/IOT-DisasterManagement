@@ -14,6 +14,7 @@ import android.widget.LinearLayout
 import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatDelegate
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.example.mad_day3.Controller.CreateAcc
@@ -26,9 +27,12 @@ import kotlin.coroutines.resumeWithException
 
 class MainActivity : AppCompatActivity() {
     val db = Firebase.firestore
+    private lateinit var sharedPref: SharedPreferences
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
+        // Apply theme before setting content view
+        applyStoredTheme()
         setContentView(R.layout.activity_main)
         val editTextUsername = findViewById<EditText>(R.id.editTextUsername)
         val editTextPassword = findViewById<EditText>(R.id.editTextPassword)
@@ -92,5 +96,16 @@ class MainActivity : AppCompatActivity() {
                     Toast.makeText(this, "Error occured : ${exception.message.toString()}", Toast.LENGTH_LONG).show()
                 }
         }
+    }
+    private fun applyStoredTheme() {
+        sharedPref = getSharedPreferences("prefs", Context.MODE_PRIVATE)
+        val themePref = sharedPref.getString("themePref", "light") ?: "light"
+        ThemeUtils.applyTheme(themePref)
+    }
+
+    override fun onResume() {
+        super.onResume()
+        // Re-apply theme in case it was changed while activity was in background
+        applyStoredTheme()
     }
 }
